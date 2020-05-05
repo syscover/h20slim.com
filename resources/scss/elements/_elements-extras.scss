@@ -1,0 +1,105 @@
+// Large Boxes
+.box-fancy {
+	>.container {
+		padding: 0 30px;
+	}
+
+	[class*="col-"] {
+		padding: 5% !important;
+	}
+
+	&.fancy-box-over {
+		top: -100px;
+	}
+}
+@media (max-width: 991px) {
+    .fbox-line-row
+    {
+        display: none;
+    }
+}
+.fbox-line-row
+{
+    opacity: 0.5;
+    margin-top: 2vh;
+}
+.fbox-single {
+    padding-top: 0 !important;
+}
+.fbox-line-hor {
+    position: absolute;
+    background-color: #3d82ff;
+    height: 20px;
+    width: 100%;
+}
+.fbox-line-ver {
+    margin-left: 42px;
+    background-color: #3d82ff;
+    height: 40px;
+    width: 20px;
+}
+.fbox-line-last {
+    width: 104px;
+}
+
+body.breakpoint-xs .box-fancy [class*="col-"] {
+	padding: 10% !important;
+}
+
+.over-slider-top {
+	top: -100px;
+}
+
+// Site Map
+.site-map {
+	i {
+		margin-right: 8px;
+	}
+
+	ul li {
+		padding-bottom: 2px;
+	}
+}
+
+// Animations
+.animated {
+	&.rounded {
+		animation-fill-mode:none;
+	}
+	&.infinite {
+		animation-duration: 3s;
+		animation-fill-mode: both;
+	}
+}
+
+[data-animate] {
+	opacity: 0;
+}
+
+[data-animate].visible {
+	opacity: 1;
+}
+
+.icon[data-animate] {
+	opacity: 1;
+}
+
+//Rating
+.rateit,
+.rateit-font .rateit-range {
+	overflow: hidden !important;
+}
+
+.rateit,
+.rateit-font .rateit-range>div,
+.rateit>div {
+	cursor: pointer !important;
+}
+
+.rateit-selected {
+	color: #FFC400 !important;
+}
+
+.rateit-reset {
+	display: none !important;
+}
