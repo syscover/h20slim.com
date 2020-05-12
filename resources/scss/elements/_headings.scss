@@ -327,7 +327,7 @@
     color: $light;
 }
 
-#logo-abs
+#logo-abs, #logo-bottom-abs
 {
     position: absolute;
     z-index: 10;
@@ -335,5 +335,23 @@
 #logo-abs img
 {
     width: 20vh;
-    margin: 2vw;
+    margin: 3vw;
 }
+#logo-bottom-abs
+{
+    bottom: 2vw;
+    right: 2vw;
+}
+#logo-bottom-abs img {width: 15vh;}
+
+@media (max-width: 792px) {
+    #logo-abs {display: none;}
+    #logo-bottom-abs {display: none;}
+    #slide-3238-layer-13 {display: none;}
+}
+
+@media (min-width: 793px) {
+    #slide-3238-layer-4, #slide-3238-layer-7 {display: none;}
+}
+
+#slider {background-color: #E89E52;}

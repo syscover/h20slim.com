@@ -20,7 +20,7 @@
 }
 .fbox-line-row
 {
-    opacity: 0.5;
+    opacity: 0.75;
     margin-top: 2vh;
 }
 .fbox-single {
@@ -28,13 +28,13 @@
 }
 .fbox-line-hor {
     position: absolute;
-    background-color: #3d82ff;
+    background-color: #f0ff3d;
     height: 20px;
     width: 100%;
 }
 .fbox-line-ver {
     margin-left: 42px;
-    background-color: #3d82ff;
+    background-color: #f0ff3d;
     height: 40px;
     width: 20px;
 }

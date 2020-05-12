@@ -42,10 +42,14 @@
 </head>
 
 <body>
-
     <div id="logo-abs">
         <a href="/">
-            <img src="images/logo-h2oslim.png">
+            <img src="images/logo-h2oslim-home.png">
+        </a>
+    </div>
+    <div id="logo-bottom-abs">
+        <a href="https://tradichem.es/">
+            <img src="images/logo-tradichem-home.png">
         </a>
     </div>
 
@@ -79,26 +83,36 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-3238" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="500" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="plugins/slider-revolution/assets/images/transparent.png" data-bgcolor="#f9f9f9" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                            <img src="images/home-bkg-3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-3238-layer-4" data-x="['left','left','left','left']" data-hoffset="['-264','-264','-371','-416']" data-y="['top','top','top','top']" data-voffset="['-135','-135','-180','-203']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_penpot.png" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-5" data-x="['right','right','right','right']" data-hoffset="['30','30','-70','-144']" data-y="['top','top','top','top']" data-voffset="['-204','-204','-233','-261']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;y:-500px;rZ:90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_flowerpot.png" alt="" data-ww="['700px','700px','700px','700px']" data-hh="['600px','600px','600px','600px']" width="700" height="600" data-no-retina> </div>
                             <!-- LAYER NR. 3 -->
+                            <!--
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-10" id="slide-3238-layer-6" data-x="['left','left','left','left']" data-hoffset="['-372','-372','-540','-638']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-484','-484','-520','-522']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:45deg;","speed":2500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_papers.png" alt="" data-ww="['900px','900px','900px','900px']" data-hh="['1000px','1000px','1000px','1000px']" width="900" height="1000" data-no-retina> </div>
+                            -->
                             <!-- LAYER NR. 4 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-12" id="slide-3238-layer-9" data-x="['left','left','left','left']" data-hoffset="['34','34','-2','-57']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['67','67','50','6']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:90deg;","speed":1500,"to":"o:1;","delay":1050,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_marker.png" alt="" data-ww="['200px','200px','200px','200px']" data-hh="['300px','300px','300px','300px']" width="200" height="300" data-no-retina> </div>
+                            <!--
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-12" id="slide-3238-layer-9" data-x="['left','left','left','left']" data-hoffset="['0','0','-2','-57']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['67','67','50','6']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:90deg;","speed":1500,"to":"o:1;","delay":1050,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_marker.png" alt="" data-ww="['200px','200px','200px','200px']" data-hh="['300px','300px','300px','300px']" width="200" height="300" data-no-retina> </div>
+                            -->
                             <!-- LAYER NR. 5 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-10" data-x="['left','left','left','left']" data-hoffset="['181','181','30','-39']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-170','-170','-190','-212']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_edding.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['400px','400px','400px','400px']" width="300" height="400" data-no-retina> </div>
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-10" data-x="['left','left','left','left']" data-hoffset="['0','0','0','-79']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-130','-130','-190','-212']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_edding.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['400px','400px','400px','400px']" width="300" height="400" data-no-retina> </div>
                             <!-- LAYER NR. 6 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-12" id="slide-3238-layer-11" data-x="['left','left','left','left']" data-hoffset="['243','243','201','81']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['218','218','183','191']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_paperclip.png" alt="" data-ww="['100px','100px','100px','100px']" data-hh="['200px','200px','200px','200px']" width="50" height="100" data-no-retina> </div>
+                            <!--
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-12" id="slide-3238-layer-11" data-x="['left','left','left','left']" data-hoffset="['173','243','201','81']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['218','218','183','191']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_paperclip.png" alt="" data-ww="['100px','100px','100px','100px']" data-hh="['200px','200px','200px','200px']" width="50" height="100" data-no-retina> </div>
+                            -->
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-12" data-x="['left','left','left','left']" data-hoffset="['346','346','165','36']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['255','255','237','231']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:90deg;","speed":2000,"to":"o:1;rZ:310;","delay":550,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_paperclip.png" alt="" data-ww="['100px','100px','100px','100px']" data-hh="['200px','200px','200px','200px']" width="50" height="100" data-no-retina> </div>
+                            <!--
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-12" data-x="['left','left','left','left']" data-hoffset="['266','346','165','36']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['255','255','237','231']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:90deg;","speed":2000,"to":"o:1;rZ:310;","delay":550,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_paperclip.png" alt="" data-ww="['100px','100px','100px','100px']" data-hh="['200px','200px','200px','200px']" width="50" height="100" data-no-retina> </div>
+                            -->
                             <!-- LAYER NR. 8 -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-7" data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-553']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_tablet.png" alt="" data-ww="['730px','730px','730px','730px']" data-hh="['520px','520px','520px','520px']" width="730" height="520" data-no-retina> </div>
                             <!-- LAYER NR. 9 -->
+                            <!--
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-8" data-x="['right','right','right','right']" data-hoffset="['222','222','105','8']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['8','8','-17','-10']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_pen.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['500px','500px','500px','500px']" width="300" height="500" data-no-retina> </div>
+                            -->
                             <!-- LAYER NR. 10 -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']" data-fontsize="['80','80','80','60']" data-lineheight="['80','80','80','60']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":510,"ease":"Power4.easeOut"},{"delay":640,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">Natural.</div>
                             <!-- LAYER NR. 11 -->
@@ -108,7 +122,7 @@
                             <!-- LAYER NR. 13 -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-2" data-x="['center','center','center','center']" data-hoffset="['-8','-8','-8','-8']" data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','-10']" data-fontsize="['20','20','20','25']" data-lineheight="['20','20','20','30']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:50px;rX:45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; white-space: nowrap; font-size: 20px; line-height: 20px; font-weight: 400; color: rgba(68, 68, 68, 1.00);font-family:Roboto;border-width:0px;">Breakthrough innovation in fat burning products.</div>
                             <!-- LAYER NR. 14 -->
-                            <div class="tp-caption rev-btn  rs-parallaxlevel-3" id="slide-3238-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['92','92','92','92']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]' data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(32, 85, 199, 1.00);bs:solid;"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[30,30,30,30]" style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Roboto;background-color:#417EC0;border-color:rgba(0, 0, 0, 1.00);border-width:0px;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:2px;cursor:pointer;">LEARN MORE</div>
+                            <div class="tp-caption rev-btn rs-parallaxlevel-3 home-button" id="slide-3238-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['92','92','92','92']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]' data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(255, 255, 255, 1.00);bs:solid;"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[30,30,30,30]" style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 700;font-family:Roboto;border-color:rgba(0, 0, 0, 1.00);border-width:0px;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:2px;cursor:pointer;">LEARN MORE</div>
                             <!-- LAYER NR. 15 -->
                             <div class="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5" id="slide-3238-layer-13" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','50','50']" data-width="35" data-height="55" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]' data-basealign="slide" data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(51, 51, 51, 1.00);border-style:solid;border-width:3px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
                                 <span>
@@ -169,12 +183,12 @@
         <!-- end: Revolution Slider-->
 
         <!-- IMAGE BLOCK -->
-        <section id="section2" class="image-block no-padding" style="background-color:#417EC0;">
+        <section id="section2" class="image-block no-padding text-light theme-bkg">
             <div class="container-fluid container-image-block">
                 <div class="row">
                     <div class="col-lg-6" style="height:609px;background:url(images/image-box-1.jpg) 50% 50% / cover no-repeat;">
                     </div>
-                    <div class="col-lg-6 text-light">
+                    <div class="col-lg-6" style="height:609px">
 
                         <h1 class="text-medium">What is H<sub>2</sub>O Slim<sup>&reg;</sup></h1>
                         <p class="p-b-20" style="font-weight:bold">Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. </p>
@@ -191,10 +205,10 @@
         <!-- end: IMAGE BLOCK -->
 
         <!-- IMAGE BLOCK 2 -->
-        <section id="section3" class="image-block no-padding text-light" style="background-color:#417EC0;">
+        <section id="section3" class="image-block no-padding text-light theme-bkg">
             <div class="container-fluid container-image-block">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="height:609px">
                         <div class="p-t-20">
                             <h1 class="text-medium">How H<sub>2</sub>O Slim<sup>&reg;</sup> works</h1>
                             <p class="p-b-20" style="font-weight:bold">Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. </p>
@@ -211,20 +225,66 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-6" style="height:609px;background:url(images/image-box-2.jpg) 50% 50% / cover no-repeat;">
+                    <div class="col-lg-6" style="height:609px; background: url(images/image-box-2.jpg) 50% 50% / cover no-repeat; display: flex;
+    align-items: center; justify-content: center;">
+                        <a href="#modalYoutube" data-lightbox="inline" class="btn btn-modal btn-lg btn-slide" data-width="215" href="#" style="width: 60px; opacity: 0.75">
+                            <i class="fa fa-play" style="margin: -1px 0 0 2px; color: #ffffff !important; text-shadow: 0 0 3px #333333;"></i>
+                            <span style="margin-top: 2px; text-shadow: 0 0 3px #333333;">WATCH VIDEO</span>
+                        </a>
                     </div>
-
-e                </div>
+                    <!-- Modal -->
+                    <div id="modalYoutube" class="modal" style="max-width: 700px; min-height:380px">
+                        <div class="text-center">
+                            <h1 class="m-b-0 text-medium">Tradichem Video Reel</h2>
+                            <h5>Information about our product</h5>
+                            <div class="iframe-wrap m-b-20">
+                                <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/zdUswsRGovk" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end: Modal -->
+                </div>
             </div>
         </section>
         <!-- end: IMAGE BLOCK 2 -->
 
-        <section id="section4" style="padding: 6vh 0 0">
-            <h1 class="text-medium text-center" style="padding-bottom: 4vh">H<sub>2</sub>O Slim<sup>&reg;</sup> in the World</h1>
-            <div class="row">
-                <div class="col-lg-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d55669303.60988927!2d-36.852991500000044!3d31.612360296781716!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1588313853330!5m2!1ses!2ses" height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-                    </iframe>
+        <section id="section4" class="image-block no-padding theme-bkg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="map-graphic" class="col-lg-6" style="height:840px;background:url(images/image-box-map-1.jpg) 50% 50% / cover no-repeat;">
+                    </div>
+                    <div class="col-lg-6 text-light" style="height:840px;padding-top:40px">
+
+                        <h1 class="text-medium">H<sub>2</sub>O Slim<sup>&reg;</sup> in the World</h1>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
+                            <div class="icon-box effect small">
+                                <div class="icon">
+                                    <a href="#" onmouseover="changePic('map-graphic', 'map', '1')" onclick="return false;"><i class="fa fa-building"></i></a>
+                                </div>
+                                <h3><a href="https://nutraceuticalsgroup.com/us" target="_blank">Nutraceuticals Group (U.S.A.)</a></h3>
+                                <p>Nutraceuticals International Group® is a global ingredient supplier with over 35 years of knowledge and experience in the natural products industry. Nutraceuticals International Group ® leads the industry by staying ahead of the trends. They continually add the newest, most exclusive ingredients to their product list and keep their customers one step ahead of the competition. They pride themselves on providing great customer service, technical support, and competitive pricing.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
+                            <div class="icon-box effect small ">
+                                <div class="icon">
+                                    <a href="#" onmouseover="changePic('map-graphic', 'map', '2')" onclick="return false;"><i class="fa fa-building"></i></a>
+                                </div>
+                                <h3><a href="https://tradichem.es/" target="_blank">Tradichem (Spain)</a></h3>
+                                <p>TRADICHEM S.L. is a European leader in the marketing and development of nutraceuticals and APIs. Since 1993 TRADICHEM has been developing high-quality products for a better life. Their work is defined by a long-term strategy which brings benefits to their customers, partners and employees. Since 2008 the company has experienced an internal technological evolution becoming an integral company formed by a logistics GDP warehouse, an innovation center and an industrial GMP site for APIs processing (TIS).</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
+                            <div class="icon-box effect small ">
+                                <div class="icon">
+                                    <a href="#" onmouseover="changePic('map-graphic', 'map', '3')" onclick="return false;"><i class="fa fa-building"></i></a>
+                                </div>
+                                <h3><a href="http://www.lithy.net/en/index/Page/index/catid/2.html" target="_blank">Lithy (China)</a></h3>
+                                <p>With more than 28 years of industry experience, Lithy strives to be the leader of China’s Nutrition and Health industry. Seguido del texto de la imagen adjunta.</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>
@@ -383,12 +443,12 @@ e                </div>
         </section>
         <!-- end: FANCY BOXES -->
 
-        <section id="section8" class="image-block no-padding" style="background-color:#417EC0">
+        <section id="section8" class="image-block no-padding theme-bkg">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6" style="height:609px;background:url(images/image-box-4.jpg) 50% 50% / cover no-repeat;">
+                    <div id="sec8-graphic" class="col-lg-6" style="height:609px;background:url(images/image-box-4-1.jpg) 50% 50% / cover no-repeat;">
                     </div>
-                    <div class="col-lg-6 text-light">
+                    <div class="col-lg-6 text-light" style="height:609px">
 
                         <h1 class="text-medium">About Tradichem<sup>&reg;</sup></h1>
                         <p class="p-b-20" style="font-weight:bold">Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. </p>
@@ -396,7 +456,7 @@ e                </div>
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
                             <div class="icon-box effect small">
                                 <div class="icon">
-                                    <a href="#"><i class="fa fa-building"></i></a>
+                                    <a href="#" onmouseover="changePic('sec8-graphic', '4', '1')" onclick="return false;"><i class="fa fa-building"></i></a>
                                 </div>
                                 <h3>Our company 1</h3>
                                 <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor
@@ -406,7 +466,7 @@ e                </div>
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
                             <div class="icon-box effect small ">
                                 <div class="icon">
-                                    <a href="#"><i class="fa fa-prescription-bottle"></i></a>
+                                    <a href="#" onmouseover="changePic('sec8-graphic', '4', '2')" onclick="return false;"><i class="fa fa-prescription-bottle"></i></a>
                                 </div>
                                 <h3>Our company 2</h3>
                                 <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor
@@ -416,7 +476,7 @@ e                </div>
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
                             <div class="icon-box effect small ">
                                 <div class="icon">
-                                    <a href="#"><i class="fa fa-laptop"></i></a>
+                                    <a href="#" onmouseover="changePic('sec8-graphic', '4', '3')" onclick="return false;"><i class="fa fa-laptop"></i></a>
                                 </div>
                                 <h3>Our company 3</h3>
                                 <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor
@@ -519,15 +579,10 @@ e                </div>
                                 </ul>
                             </div>
                         </div>
-
-
-
-
-
                     </div>
                 </div>
             </div>
-            <div class="copyright-content text-light" style="background-color:#417EC0">
+            <div class="copyright-content text-light theme-bkg">
                 <div class="container">
                     <div class="row">
                         <div class="copyright-text text-center"> &copy; 2020 <a target="_blank" href="//www.tradichem.com">Tradichem</a>. All Rights Reserved. Website created by <a target="_blank" href="//www.digitalh2.com">DigitalH<sub>2</sub></a>
@@ -541,6 +596,15 @@ e                </div>
 
     </div>
     <!-- end: Body Inner -->
+
+    <!-- Custom Pic Changer -->
+    <script>
+            function changePic(block, group, num)
+            {
+                $('#' + block).css('background-image', 'url(images/image-box-'+group+'-'+num+'.jpg)');
+                return false;
+            }
+    </script>
 
     <!-- Scroll top -->
     <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
