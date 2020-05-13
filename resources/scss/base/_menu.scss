@@ -80,7 +80,7 @@ Main Menu
                         display: none;
                     }
 
-                   
+
                 }
                 .dropdown-arrow {
                     display: none;
@@ -627,10 +627,10 @@ Dots Menu
         background: rgba($dark, .7);
         position: absolute;
         width: 32px;
-        right: -8px;
+        right: -4px;
         height: 100%;
         border-radius: 20px;
-        top: -24px;
+        top: -10px;
         box-shadow: 0 4px 9px 0 rgba(43, 43, 49, 0.1), 0 7px 14px 0 rgba(43, 43, 49, 0.13);
     }
 
@@ -639,15 +639,15 @@ Dots Menu
         padding-bottom: 6px;
 
         li {
-            text-align: right;
+            text-align: center;
             padding: 0px;
-            width: 15px;
-            height: 15px;
-            margin-bottom: 12px;
+            width: 24px;
+            height: 24px;
             background-color: $light;
             border-radius: 50%;
             transform: scale(0.6);
             transition: transform 0.3s, background-color 0.5s;
+            line-height: 24px;
 
             &:hover {
                 background-color: $color-theme;
@@ -1209,7 +1209,7 @@ Main menu - Vertical
                     >.dropdown-menu {
                         visibility: visible;
                         opacity: 1;
-                        max-height: 3000px; 
+                        max-height: 3000px;
                     }
                 }
             }
@@ -1383,8 +1383,8 @@ Main Menu: Responsive
                         &:before {
                             right: 14px;
                             display: block;
-                        } 
-                        
+                        }
+
                     }
                     .dropdown-arrow {
                             display: inline;
@@ -1574,7 +1574,7 @@ Main Menu: Responsive
             }
         }
 
-              
+
         &.dark #header,
         #header:not(.submenu-light).dark {
 
