@@ -336,6 +336,8 @@
                     <div class="col-lg-6" style="height:609px">
                         <div class="row">
                             <h1 class="text-medium">Natural product</h1>
+                        </div>
+                        <div class="row">
                             <p class="p-b-20" style="font-weight:bold">A natural ingredient for calorie control.</p>
 
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
@@ -528,7 +530,7 @@
                                 <p>
                                     Avenida Azucarera, 30<br>
                                     28500, Arganda del Rey.<br>
-                                    Madrid, Spain.<br>
+                                    Madrid, Spain.<br><br>
                                     <i class="fa fa-phone"></i> +34 918 75 98 98
                                 </p>
                                 <a href="https://tradichem.es/" target="_blank"><img src="http://h2oslim.local/images/logo-tradichem-home.png" alt="Tradichem.es"></a>
