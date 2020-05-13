@@ -267,7 +267,7 @@
                                 <div class="icon">
                                     <a href="#map-graphic"><i class="fa fa-building"></i></a>
                                 </div>
-                                <h3><a href="https://nutraceuticalsgroup.com/us" target="_blank">Nutraceuticals Group (United States) &nbsp;<i class="fa fa-external-link-alt"></i></a></h3>
+                                <h3><a href="https://nutraceuticalsgroup.com/us" target="_blank">Nutraceuticals Group (USA + México) &nbsp;<i class="fa fa-external-link-alt"></i></a></h3>
                                 <p>Nutraceuticals International Group® is a global ingredient supplier with over 35 years of knowledge and experience in the natural products industry. Nutraceuticals International Group ® leads the industry by staying ahead of the trends. They continually add the newest, most exclusive ingredients to their product list and keep their customers one step ahead of the competition. They pride themselves on providing great customer service, technical support, and competitive pricing.</p>
                             </div>
                         </div>
