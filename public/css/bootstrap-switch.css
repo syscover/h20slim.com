@@ -176,15 +176,15 @@
 .bootstrap-switch .bootstrap-switch-on,
 .bootstrap-switch .bootstrap-switch-handle-on,
 .bootstrap-switch .bootstrap-switch-handle-off {
-  background-color: #16E4B1;
-  border-color: #16E4B1;
+  background-color: #739bc6;
+  border-color: #739bc6;
   color: #ffffff;
 }
 .bootstrap-switch .bootstrap-switch-on.bootstrap-switch-primary,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
-  background-color: #16E4B1;
-  border-color: #16E4B1;
+  background-color: #739bc6;
+  border-color: #739bc6;
   color: #ffffff;
 }
 .bootstrap-switch .bootstrap-switch-on.bootstrap-switch-secondary,
@@ -310,8 +310,8 @@
 }
 .p-radio > input[type=radio]:checked + .p-radio-style:before {
   animation-name: none;
-  border: 1px solid #16E4B1;
-  background: #16E4B1;
+  border: 1px solid #739bc6;
+  background: #739bc6;
 }
 .p-radio > input[type=radio]:checked + .p-radio-style:after {
   display: block;
@@ -349,8 +349,8 @@
   font-size: 150%;
 }
 .p-radio.radio-color-primary > input[type=radio]:checked + .p-radio-style:before {
-  background-color: #16E4B1;
-  border-color: #16E4B1;
+  background-color: #739bc6;
+  border-color: #739bc6;
 }
 .p-radio.radio-color-secondary > input[type=radio]:checked + .p-radio-style:before {
   background-color: #5A6268;
@@ -426,8 +426,8 @@
 }
 .p-checkbox > input[type=checkbox]:checked + .p-checkbox-style:before {
   animation-name: none;
-  border: #16E4B1;
-  background: #16E4B1;
+  border: #739bc6;
+  background: #739bc6;
 }
 .p-checkbox > input[type=checkbox]:checked + .p-checkbox-style:after {
   display: block;
@@ -452,7 +452,7 @@
   font-size: 150%;
 }
 .p-checkbox.checkbox-color-primary > input[type=checkbox]:checked + .p-checkbox-style:before {
-  background-color: #16E4B1;
+  background-color: #739bc6;
 }
 .p-checkbox.checkbox-color-secondary > input[type=checkbox]:checked + .p-checkbox-style:before {
   background-color: #5A6268;
@@ -524,7 +524,7 @@ label.p-checkbox {
   display: none;
 }
 .p-switch > input[type=checkbox]:checked + .p-switch-style {
-  background-color: #16E4B1;
+  background-color: #739bc6;
 }
 .p-switch > input[type=checkbox]:checked + .p-switch-style:before {
   left: 50%;
@@ -546,7 +546,7 @@ label.p-checkbox {
   opacity: 0.5;
 }
 .p-switch.switch-color-primary > input[type=checkbox]:checked + .p-switch-style {
-  background-color: #16E4B1;
+  background-color: #739bc6;
 }
 .p-switch.switch-color-secondary > input[type=checkbox]:checked + .p-switch-style {
   background-color: #5A6268;

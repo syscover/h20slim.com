@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head><!-- TODO: Añadir variable assets de blade -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="H2O Slim by Tradichem">
@@ -62,7 +62,7 @@
                 <li><i class="fa fa-home"></i><a href="#slider"><span>HOME</span></a></li>
                 <li><i class="fa fa-question"></i><a href="#section2"><span>WHAT IS H2Oslim<sup>&reg;</sup>?</span></a></li>
                 <li><i class="fa fa-cogs"></i><a href="#section3"><span>HOW DOES H2Oslim<sup>&reg;</sup> WORK?</span></a></li>
-                <li><i class="fa fa-globe"></i><a href="#section4"><span>H<sub>2</sub>O SLIM<sup>&reg;</sup> IN THE WORLD</span></a></li>
+                <li><i class="fa fa-globe"></i><a href="#section4"><span>H<sub>2</sub>O SLIM<sup>&reg;</sup> PARTNERS</span></a></li>
                 <li><i class="fa fa-chart-line"></i><a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
                 <li><i class="fa fa-leaf"></i><a href="#section6"><span>NATURAL PRODUCT</span></a></li>
                 <li><i class="fa fa-award"></i><a href="#section7"><span>QUALITY & TRACEABILITY</span></a></li>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="col-lg-6" style="height:609px; background: url(images/image-box-2.jpg) 50% 50% / cover no-repeat; display: flex;
     align-items: center; justify-content: center;">
-                        <a href="#modalYoutube" data-lightbox="inline" class="btn btn-modal btn-lg btn-slide" data-width="215" href="#" style="width: 60px; opacity: 0.75">
+                        <a href="#modalYoutube" data-lightbox="inline" class="btn btn-modal btn-lg btn-slide" data-width="215" href="#" style="width: 60px; opacity: 1">
                             <i class="fa fa-play" style="margin: -1px 0 0 2px; color: #ffffff !important; text-shadow: 0 0 3px #333333;"></i>
                             <span style="margin-top: 2px; text-shadow: 0 0 3px #333333;">WATCH VIDEO</span>
                         </a>
@@ -228,9 +228,9 @@
                     <div id="modalYoutube" class="modal text-light" style="max-width: 700px; min-height:380px">
                         <div class="text-center">
                             <h1 class="m-b-0 text-medium">H<sub>2</sub>O Slim<sup>&reg;</sup> by Tradichem</h2>
-                            <h5>Product studies video</h5>
+                            <h5>A non-animal water soluble ingredient for calorie control</h5>
                             <div class="iframe-wrap m-b-20">
-                                <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/zdUswsRGovk" frameborder="0" allowfullscreen></iframe>
+                                <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/t5aG0RlUzWI" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -240,56 +240,26 @@
         </section>
         <!-- end: IMAGE BLOCK 2 -->
 
-        <section id="section4" class="image-block no-padding theme-bkg">
-            <script>
-                function preload(arrayOfImages)
-                {
-                    $(arrayOfImages).each(function(){
-                        (new Image()).src = this;
-                    });
-                }
-
-                preload([
-                    'images/image-box-map-1.jpg',
-                    'images/image-box-map-2.jpg',
-                    'images/image-box-map-3.jpg'
-                ]);
-            </script>
-            <div class="container-fluid">
+        <section id="section4" class="image-block no-padding">
+            <div class="container">
                 <div class="row">
-                    <div id="map-graphic" class="col-lg-6" style="height:840px;background:url(images/image-box-map-1.jpg) 50% 50% / cover no-repeat;">
+                    <div class="content">
+                        <h1 class="text-medium" style="margin-top:40px">H<sub>2</sub>O Slim<sup>&reg;</sup> Partners</h1>
                     </div>
-                    <div class="col-lg-6 text-light" style="height:840px;padding-top:40px">
-
-                        <h1 class="text-medium">H<sub>2</sub>O Slim<sup>&reg;</sup> in the World</h1>
-                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
-                            <div class="icon-box effect small" onmouseover="changePic('map-graphic', 'map', '1')">
-                                <div class="icon">
-                                    <a href="#map-graphic"><i class="fa fa-building"></i></a>
-                                </div>
-                                <h3><a href="https://nutraceuticalsgroup.com/us" target="_blank">Nutraceuticals Group (USA + México) &nbsp;<i class="fa fa-external-link-alt"></i></a></h3>
-                                <p>Nutraceuticals International Group® is a global ingredient supplier with over 35 years of knowledge and experience in the natural products industry. Nutraceuticals International Group ® leads the industry by staying ahead of the trends. They continually add the newest, most exclusive ingredients to their product list and keep their customers one step ahead of the competition. They pride themselves on providing great customer service, technical support, and competitive pricing.</p>
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="mapdiv4" style="width: 100%; height: 60vh; overflow: hidden;"></div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-12 visible" style="margin-top: 40px">
+                    <div class="icon-box small">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-building"></i></a>
                         </div>
-                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
-                            <div class="icon-box effect small" onmouseover="changePic('map-graphic', 'map', '2')">
-                                <div class="icon">
-                                    <a href="#map-graphic"><i class="fa fa-building"></i></a>
-                                </div>
-                                <h3><a href="https://tradichem.es/" target="_blank">Tradichem (Spain) &nbsp;<i class="fa fa-external-link-alt"></i></a></h3>
-                                <p>TRADICHEM S.L. is a European leader in the marketing and development of nutraceuticals and APIs. Since 1993 TRADICHEM has been developing high-quality products for a better life. Their work is defined by a long-term strategy which brings benefits to their customers, partners and employees. Since 2008 the company has experienced an internal technological evolution becoming an integral company formed by a logistics GDP warehouse, an innovation center and an industrial GMP site for APIs processing (TIS).</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
-                            <div class="icon-box effect small" onmouseover="changePic('map-graphic', 'map', '3')">
-                                <div class="icon">
-                                    <a href="#map-graphic"><i class="fa fa-building"></i></a>
-                                </div>
-                                <h3><a href="http://www.lithy.net/en/index/Page/index/catid/2.html" target="_blank">Lithy (China) &nbsp;<i class="fa fa-external-link-alt"></i></a></h3>
-                                <p>With more than 28 years of industry experience, Lithy strives to be the leader of China’s Nutrition and Health industry. Seguido del texto de la imagen adjunta.</p>
-                            </div>
-                        </div>
-
+                        <h3 id="map_desc_title">Please, select a country</h3>
+                        <p id="map_desc_text">Click or hover over a country for more information</p>
                     </div>
                 </div>
             </div>
@@ -303,7 +273,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-5"><br>
+                    <div class="col-lg-3"><br>
                         <h4>H<sub>2</sub>O Slim<sup>&reg;</sup> binds and eliminates more fat than chitosan with half the dose</h4>
                         <p>
                             <span>H<sub>2</sub>O Slim<sup>&reg;</sup> has shown amazing results in recent clinical studies.
@@ -311,26 +281,44 @@
                                 H<sub>2</sub>O Slim<sup>&reg;</sup> is 2500 times more effective than liquid chitosan and 175 times more effective than powder.
                             </span>
                         </p>
-                        <h4>Clinical Study Icon - Scientifically Proven Weight Loss</h4>
+                    </div>
+
+                    <!-- content -->
+                    <div class="content col-lg-6">
+                       <!-- chart -->
+                       <canvas id="canvas"></canvas>
+                       <!-- end: chart -->
+                       <div style="width: 64px; margin: 15px auto 0"><img src="images/sc-proven.png" alt="Scientifically Proven" title="Scientifically Proven" style="width: 64px; height: 64px; opacity: 0.75"></div>
+                    </div>
+                    <!-- end: content -->
+
+                    <div class="col-lg-3">
+                        <h4>Scientifically Proven Weight Loss</h4>
                         <p>Randomized double-blind vs placebo-controlled design 12 weeks 100 healthy overweight volunteers</p>
                         <ul style="list-style:none">
                             <li><i class="fa fa-check"></i> &nbsp;"A solely 400 mg dosage is capable of reducing weight loss and waist circumference, with a deeper impact on the waist circumference"</li>
                             <li><i class="fa fa-check"></i> &nbsp;"H<sub>2</sub>O Slim<sup>&reg;</sup> administration is associated with a decrease in the blood lipid levels"</li>
                         </ul>
                     </div>
-
-                    <!-- content -->
-                    <div class="content col-lg-7">
-                       <!-- chart -->
-                       <canvas id="canvas"></canvas>
-                       <!-- end: chart -->
-                    </div>
-                    <!-- end: content -->
                 </div>
             </div>
         </section>
 
         <section id="section6" class="image-block no-padding text-light theme-bkg">
+            <script>
+                function preload(arrayOfImages)
+                {
+                    $(arrayOfImages).each(function(){
+                        (new Image()).src = this;
+                    });
+                }
+
+                preload([
+                    'images/image-box-3-1.jpg',
+                    'images/image-box-3-2.jpg',
+                    'images/image-box-3-3.jpg'
+                ]);
+            </script>
             <div class="container-fluid container-image-block">
                 <div class="row">
                     <div class="col-lg-6" style="height:609px">
@@ -341,7 +329,7 @@
                             <p class="p-b-20" style="font-weight:bold">A natural ingredient for calorie control.</p>
 
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
-                                <div class="icon-box effect small">
+                                <div class="icon-box effect small" onmouseover="changePic('sec6-graphic', '3', '1')">
                                     <div class="icon">
                                         <a href="#"><i class="fa fa-tree"></i></a>
                                     </div>
@@ -350,7 +338,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
-                                <div class="icon-box effect small ">
+                                <div class="icon-box effect small" onmouseover="changePic('sec6-graphic', '3', '2')">
                                     <div class="icon">
                                         <a href="#"><i class="fa fa-seedling"></i></a>
                                     </div>
@@ -359,7 +347,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
-                                <div class="icon-box effect small">
+                                <div class="icon-box effect small" onmouseover="changePic('sec6-graphic', '3', '3')">
                                     <div class="icon">
                                         <a href="#"><i class="fa fa-user-md"></i></a>
                                     </div>
@@ -369,7 +357,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6" style="height:609px;background:url(images/image-box-3.jpg) 50% 50% / cover no-repeat;">
+                    <div id="sec6-graphic" class="col-lg-6" style="height:609px;background:url(images/image-box-3-1.jpg) 50% 50% / cover no-repeat;">
                     </div>
 
                 </div>
@@ -397,11 +385,11 @@
                     <div class="fbox-line-ver"></div>
                 </div>
             </div>
-            <div class="row"><!-- _elements-extras.scss -->
+            <div class="row" id="quality-steps"><!-- _elements-extras.scss -->
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
                     <h1 class="text-lg text-uppercase">01.</h1>
                     <h3>HARVESTING</h3>
-                    <span>When talking about effectiveness every detail is important. That is why we only harvest a specific variety of Agaricus Bisporus cultivated in no- alkaline soil in East Europe.</span>
+                    <span>When talking about effectiveness every detail is important. That is why we only harvest a specific variety of Agaricus Bisporus cultivated in non-alkaline soil in East Europe.</span>
                 </div>
 
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
@@ -419,7 +407,7 @@
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
                     <h1 class="text-lg text-uppercase">04.</h1>
                     <h3>NATURAL AND QUALITY INGREDIENT</h3>
-                    <span>>H<sub>2</sub>O Slim<sup>&reg;</sup> is a result of science and nature come together to give the natural most powerful ingredient to weight loss without any side effect reported.	
+                    <span>>H<sub>2</sub>O Slim<sup>&reg;</sup> is a result of science and nature come together to give the natural most powerful ingredient to weight loss without any side effect reported.
 </span>
                 </div>
             </div>
@@ -436,12 +424,12 @@
             </script>
             <div class="container-fluid">
                 <div class="row">
-                    <div id="sec8-graphic" class="col-lg-6" style="height:609px;background:url(images/image-box-4-1.jpg) 50% 50% / cover no-repeat;">
+                    <div id="sec8-graphic" class="col-lg-6" style="height:740px;background:url(images/image-box-4-1.jpg) 50% 50% / cover no-repeat;">
                     </div>
-                    <div class="col-lg-6 text-light" style="height:609px">
+                    <div class="col-lg-6 text-light" style="height:740px">
 
                         <h1 class="text-medium">About Tradichem<sup>&reg;</sup></h1>
-                        <p class="p-b-20" style="font-weight:bold">Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. </p>
+                        <p class="p-b-20" style="font-weight:bold"><a href="https://tradichem.es" target="_blank">tradichem.es</a></p>
 
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
                             <div class="icon-box effect small" onmouseover="changePic('sec8-graphic', '4', '1')">
@@ -533,7 +521,7 @@
                                     Madrid, Spain.<br><br>
                                     <i class="fa fa-phone"></i> +34 918 75 98 98
                                 </p>
-                                <a href="https://tradichem.es/" target="_blank"><img src="http://h2oslim.local/images/logo-tradichem-home.png" alt="Tradichem.es"></a>
+                                <a href="https://tradichem.es/" target="_blank"><img src="images/logo-tradichem-home.png" alt="Tradichem.es"></a>
                             </div>
                         </div>
 
@@ -544,7 +532,7 @@
                                 <li><i class="fa fa-home"></i> &nbsp;<a href="#slider"><span>HOME</span></a></li>
                                     <li><i class="fa fa-question"></i> &nbsp;<a href="#section2"><span>WHAT IS H2Oslim<sup>&reg;</sup>?</span></a></li>
                                     <li><i class="fa fa-cogs"></i> &nbsp;<a href="#section3"><span>HOW DOES H2Oslim<sup>&reg;</sup> WORK?</span></a></li>
-                                    <li><i class="fa fa-globe"></i> &nbsp;<a href="#section4"><span>H<sub>2</sub>O SLIM<sup>&reg;</sup> IN THE WORLD</span></a></li>
+                                    <li><i class="fa fa-globe"></i> &nbsp;<a href="#section4"><span>H<sub>2</sub>O SLIM<sup>&reg;</sup> PARTNERS</span></a></li>
                                     <li><i class="fa fa-chart-line"></i> &nbsp;<a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
                                     <li><i class="fa fa-leaf"></i> &nbsp;<a href="#section6"><span>NATURAL PRODUCT</span></a></li>
                                     <li><i class="fa fa-award"></i> &nbsp;<a href="#section7"><span>QUALITY & TRACEABILITY</span></a></li>
@@ -589,6 +577,9 @@
 
     <!--Template functions-->
     <script src="js/functions.js"></script>
+
+    <!--ScrollReveal-->
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.6/scrollreveal.min.js"></script>
 
     <!-- charts.js component-->
     <script src="plugins/chartjs/chart.min.js"></script>
@@ -662,6 +653,192 @@
         };
     </script>
     <!-- end: charts.js component-->
+
+    <!-- amcharts component-->
+    <script src="plugins/amcharts/core.js"></script>
+    <script src="plugins/amcharts/maps.js"></script>
+    <script src="plugins/amcharts/geodata/worldHigh.js"></script>
+    <script>
+        // Create map instance
+        var chart = am4core.create("mapdiv4", am4maps.MapChart);
+        // Set map definition
+        chart.geodata = am4geodata_worldHigh;
+        // Set projection
+        chart.projection = new am4maps.projections.Miller();
+        // Disable wheel and drag
+        chart.chartContainer.wheelable = false;
+        chart.seriesContainer.draggable = false;
+/*
+        // Export
+        chart.exporting.menu = new am4core.ExportMenu();
+*/
+
+        // Zoom control
+        chart.zoomControl = new am4maps.ZoomControl();
+
+        // Home button
+        var homeButton = new am4core.Button();
+        homeButton.events.on("hit", function () {
+            chart.goHome();
+        });
+        homeButton.icon = new am4core.Sprite();
+        homeButton.padding(7, 5, 7, 5);
+        homeButton.width = 30;
+        homeButton.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+        homeButton.marginBottom = 10;
+        homeButton.parent = chart.zoomControl;
+        homeButton.insertBefore(chart.zoomControl.plusButton);
+
+        // Center on the groups by default
+        chart.homeZoomLevel = 1;
+/*
+        chart.homeGeoPoint = {
+            longitude: 10,
+            latitude: 52
+        };
+*/
+        var groupData = [
+            {
+                "name": "Nutraceuticals Group (USA & México)",
+                "color": "#7DB378",
+                "data": [{
+                    "title": "USA",
+                    "id": "US",
+                    "customData": "Nutraceuticals Group (USA)"
+                }, {
+                    "title": "Mexico",
+                    "id": "MX",
+                    "customData": "Nutraceuticals Group (Mexico)"
+                }]
+            },
+            {
+                "name": "Tradichem (Europe)",
+                "color": "#1AE5B9",
+                "data": [{
+                    "title": "Spain",
+                    "id": "ES",
+                    "customData": "Tradichem S.L. (Spain)"
+                }]
+            },
+            {
+                "name": "Lithy (Asia)",
+                "color": "#193387",
+                "data": [{
+                    "title": "China",
+                    "id": "CN",
+                    "customData": "Lithy (China)"
+                }]
+            }
+        ];
+        // This array will be populated with country IDs to exclude from the world series
+        var excludedCountries = ["AQ"]; // Exclude Antarctica
+        // Create a series for each group, and populate the above array
+        groupData.forEach(function (group) {
+            var series = chart.series.push(new am4maps.MapPolygonSeries());
+            series.name = group.name;
+            series.useGeodata = true;
+            var includedCountries = [];
+            group.data.forEach(function (country) {
+                includedCountries.push(country.id);
+                excludedCountries.push(country.id);
+            });
+            series.include = includedCountries;
+            series.fill = am4core.color(group.color);
+            // By creating a hover state and setting setStateOnChildren to true, when we
+            // hover over the series itself, it will trigger the hover SpriteState of all
+            // its countries (provided those countries have a hover SpriteState, too!).
+            series.setStateOnChildren = true;
+            var seriesHoverState = series.states.create("hover");
+            // Country shape properties & behaviors
+            var mapPolygonTemplate = series.mapPolygons.template;
+            // Events
+            mapPolygonTemplate.events.on("hit", function(ev) {
+                // zoom to an object
+//                ev.target.series.chart.zoomToMapObject(ev.target);
+
+                // get object info
+                var countryName = ev.target.dataItem.dataContext.name;
+
+                console.log("*" + countryName + "*");
+                switch (countryName)
+                {
+                    case 'Spain':
+                        $('#map_desc_title').text("Tradichem S.L. (Spain)");
+                        $('#map_desc_text').text("TRADICHEM S.L. is a European leader in the marketing and development of nutraceuticals and APIs. Since 1993 TRADICHEM has been developing high-quality products for a better life. Their work is defined by a long-term strategy which brings benefits to their customers, partners and employees. Since 2008 the company has experienced an internal technological evolution becoming an integral company formed by a logistics GDP warehouse, an innovation center and an industrial GMP site for APIs processing (TIS).");
+                    break;
+
+                    case 'United States':
+                        $('#map_desc_title').text("Nutraceuticals Group (USA & México)");
+                        $('#map_desc_text').text("Nutraceuticals International Group® is a global ingredient supplier with over 35 years of knowledge and experience in the natural products industry. Nutraceuticals International Group ® leads the industry by staying ahead of the trends. They continually add the newest, most exclusive ingredients to their product list and keep their customers one step ahead of the competition. They pride themselves on providing great customer service, technical support, and competitive pricing.");
+                    break;
+
+                    case 'China':
+                        $('#map_desc_title').text("Lithy (China)");
+                        $('#map_desc_text').text("With more than 28 years of industry experience, Lithy strives to be the leader of China’s Nutrition and Health industry. Lithy was founded in 2002. As a well-known overall solutions service provider of health and beauty products, Lithy focuses on the construction of the whole industrial chain system including R&D, production, and sales of global nutrition and health products.");
+                    break;
+                }
+            });
+            // Instead of our custom title, we could also use {name} which comes from geodata
+            mapPolygonTemplate.fill = am4core.color(group.color);
+            mapPolygonTemplate.fillOpacity = 0.8;
+            // States
+            var hoverState = mapPolygonTemplate.states.create("hover");
+            hoverState.properties.fill = am4core.color("#CC0000");
+            // Tooltip
+            mapPolygonTemplate.tooltipText = "{customData}"; // enables tooltip // {title} not used
+            // series.tooltip.getFillFromObject = false; // prevents default colorization, which would make all tooltips red on hover
+            // series.tooltip.background.fill = am4core.color(group.color);
+            // MapPolygonSeries will mutate the data assigned to it,
+            // we make and provide a copy of the original data array to leave it untouched.
+            // (This method of copying works only for simple objects, e.g. it will not work
+            //  as predictably for deep copying custom Classes.)
+            series.data = JSON.parse(JSON.stringify(group.data));
+        });
+        // The rest of the world.
+        var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
+        var worldSeriesName = "world";
+        worldSeries.name = worldSeriesName;
+        worldSeries.useGeodata = true;
+        worldSeries.exclude = excludedCountries;
+        worldSeries.fillOpacity = 0.8;
+        worldSeries.hiddenInLegend = true;
+        // This auto-generates a legend according to each series' name and fill
+        chart.legend = new am4maps.Legend();
+        // Legend styles
+        chart.legend.paddingLeft = 27;
+        chart.legend.paddingRight = 27;
+        chart.legend.marginBottom = 15;
+        chart.legend.width = am4core.percent(90);
+        chart.legend.valign = "bottom";
+        chart.legend.contentAlign = "left";
+        // Legend items
+        chart.legend.itemContainers.template.interactionsEnabled = false;
+    </script>
+
+    <script>
+        window.sr = ScrollReveal({
+            // Animation
+            origin      : 'top',
+            distance    : '20px',
+            duration    : 3000,
+            delay       : 150,
+            useDelay    : 'always',
+            interval    : 150,
+			rotate      : { x: 0, y: 90, z: 0 },
+            opacity     : 0,
+            scale       : 0,
+            easing      : 'ease-out',
+
+            // Options
+            container   : null,
+            mobile      : true,
+            reset       : true,
+            useDelay    : 'always',
+            viewFactor  : 0.30,
+            viewOffset  : { top: 0, right: 0, bottom: 0, left: 0 }
+        });
+        sr.reveal('#quality-steps div');
+    </script>
 </body>
 
 </html>

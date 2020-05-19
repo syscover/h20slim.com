@@ -19,7 +19,7 @@ a.btn:not([href]):not([tabindex]) {
     padding: 12px 18px;
     position: relative;
     text-transform: uppercase;
-    background-color: $color-theme;
+    background-color: $color-theme-dark;
     border-color: $color-theme;
     border-width: 1px;
     border-style: solid;
@@ -692,7 +692,7 @@ a.btn:not([href]):not([tabindex]) {
     button.btn:not(.btn-creative):not(.btn-slide),
     .btn:not(.close):not(.mfp-close):not(.btn-creative):not(.btn-slide),
     a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide) {
-        &.btn-reveal {   
+        &.btn-reveal {
 
             &:hover {
                 span {
@@ -713,7 +713,7 @@ a.btn:not([href]):not([tabindex]) {
         padding: 0 14px;
 
 
-            
+
         &.btn-lg {
             font-size: 13px;
             height: 38px;
@@ -734,11 +734,11 @@ a.btn:not([href]):not([tabindex]) {
             padding: 0 10px;
         }
 
-      
+
 
     }
 
-    
+
 
 }
 
