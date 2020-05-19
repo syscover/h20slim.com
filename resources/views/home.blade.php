@@ -667,7 +667,7 @@
         chart.projection = new am4maps.projections.Miller();
         // Disable wheel and drag
         chart.chartContainer.wheelable = false;
-        chart.seriesContainer.draggable = false;
+//        chart.seriesContainer.draggable = false;
 /*
         // Export
         chart.exporting.menu = new am4core.ExportMenu();
