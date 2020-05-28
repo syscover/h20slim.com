@@ -18582,4 +18582,22 @@ sup {
   margin-top: 38px;
 }
 
+.icon-logo-dims {
+  width: 110px !important;
+  height: 110px !important;
+}
+
+#map_desc_text {
+  margin-right: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+#footer-links i {
+  width: 16px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

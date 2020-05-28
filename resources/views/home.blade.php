@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><!-- TODO: Añadir variable assets de blade -->
+<head>
+    <!-- TODO: Añadir variable assets de blade -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="H2O Slim by Tradichem">
     <meta name="author" content="Digital H2">
     <meta name="generator" content="Pulsar (http://www.syscover.com)">
     <meta name="designer" content="Octavio Molano">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
     <title>H2O Slim by Tradichem</title>
@@ -19,37 +20,37 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
     <!-- LOADING FONTS AND ICONS -->
     <link href="//fonts.googleapis.com/css?family=Roboto%3A700%2C400" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('plugins/slider-revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('plugins/slider-revolution/fonts/font-awesome/css/font-awesome.css') }}">
     <!-- REVOLUTION STYLE SHEETS -->
-    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('plugins/slider-revolution/css/settings.css') }}">
     <!-- REVOLUTION LAYERS STYLES -->
     <!-- REVOLUTION NAVIGATION STYLES -->
-    <link rel="stylesheet" type="text/css" href="plugins/slider-revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('plugins/slider-revolution/css/navigation.css') }}">
     <!-- REVOLUTION JS FILES -->
-    <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="plugins/slider-revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slider-revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
 </head>
 
 <body>
     <div id="logo-abs">
         <a href="/">
-            <img src="images/logo-h2oslim-home.png">
+            <img src="{{ asset('images/logo-h2oslim-home.png') }}">
         </a>
     </div>
     <div id="logo-bottom-abs">
         <a href="https://tradichem.es/">
-            <img src="images/logo-tradichem-home.png">
+            <img src="{{ asset('images/logo-tradichem-home.png') }}">
         </a>
     </div>
 
@@ -66,8 +67,9 @@
                 <li><i class="fa fa-chart-line"></i><a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
                 <li><i class="fa fa-leaf"></i><a href="#section6"><span>NATURAL PRODUCT</span></a></li>
                 <li><i class="fa fa-award"></i><a href="#section7"><span>QUALITY & TRACEABILITY</span></a></li>
-                <li><i class="fa fa-info"></i><a href="#section8"><span>ABOUT TRADICHEM</span></a></li>
-                <li><i class="fa fa-film"></i><a href="#section9"><span>VIDEO GALLERY</span></a></li>
+                <li><i class="fa fa-prescription-bottle"></i><a href="#section8"><span>LINE EXTENSION 2020</span></a></li>
+                <li><i class="fa fa-info"></i><a href="#section9"><span>ABOUT TRADICHEM</span></a></li>
+                <li><i class="fa fa-film"></i><a href="#section10"><span>VIDEO GALLERY</span></a></li>
                 <li><i class="fa fa-address-card"></i><a href="#footer"><span>CONTACT DETAILS</span></a></li>
             </ul>
         </nav>
@@ -83,38 +85,14 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-3238" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="500" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="images/home-bkg-3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('images/home-bkg-3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
                             <!-- LAYER NR. 1 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-3238-layer-4" data-x="['left','left','left','left']" data-hoffset="['-264','-264','-371','-416']" data-y="['top','top','top','top']" data-voffset="['-135','-135','-180','-203']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_penpot.png" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-3238-layer-4" data-x="['left','left','left','left']" data-hoffset="['-264','-264','-371','-416']" data-y="['top','top','top','top']" data-voffset="['-135','-135','-180','-203']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;border-width:0px;"><img src="{{ asset('plugins/slider-revolution/assets/images/header_penpot.png') }}" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-5" data-x="['right','right','right','right']" data-hoffset="['30','30','-70','-144']" data-y="['top','top','top','top']" data-voffset="['-204','-204','-233','-261']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;y:-500px;rZ:90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_flowerpot.png" alt="" data-ww="['700px','700px','700px','700px']" data-hh="['600px','600px','600px','600px']" width="700" height="600" data-no-retina> </div>
-                            <!-- LAYER NR. 3 -->
-                            <!--
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-10" id="slide-3238-layer-6" data-x="['left','left','left','left']" data-hoffset="['-372','-372','-540','-638']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-484','-484','-520','-522']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:45deg;","speed":2500,"to":"o:1;","delay":650,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_papers.png" alt="" data-ww="['900px','900px','900px','900px']" data-hh="['1000px','1000px','1000px','1000px']" width="900" height="1000" data-no-retina> </div>
-                            -->
-                            <!-- LAYER NR. 4 -->
-                            <!--
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-12" id="slide-3238-layer-9" data-x="['left','left','left','left']" data-hoffset="['0','0','-2','-57']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['67','67','50','6']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:90deg;","speed":1500,"to":"o:1;","delay":1050,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_marker.png" alt="" data-ww="['200px','200px','200px','200px']" data-hh="['300px','300px','300px','300px']" width="200" height="300" data-no-retina> </div>
-                            -->
-                            <!-- LAYER NR. 5 --> <!-- The Last Shrooms -->
-                            <!--
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-10" data-x="['left','left','left','left']" data-hoffset="['0','0','0','-79']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-130','-130','-190','-212']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_edding.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['400px','400px','400px','400px']" width="300" height="400" data-no-retina> </div>
-                            -->
-                            <!-- LAYER NR. 6 -->
-                            <!--
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-12" id="slide-3238-layer-11" data-x="['left','left','left','left']" data-hoffset="['173','243','201','81']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['218','218','183','191']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:-90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_paperclip.png" alt="" data-ww="['100px','100px','100px','100px']" data-hh="['200px','200px','200px','200px']" width="50" height="100" data-no-retina> </div>
-                            -->
-                            <!-- LAYER NR. 7 -->
-                            <!--
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-12" data-x="['left','left','left','left']" data-hoffset="['266','346','165','36']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['255','255','237','231']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"y:bottom;rZ:90deg;","speed":2000,"to":"o:1;rZ:310;","delay":550,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_paperclip.png" alt="" data-ww="['100px','100px','100px','100px']" data-hh="['200px','200px','200px','200px']" width="50" height="100" data-no-retina> </div>
-                            -->
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-5" data-x="['right','right','right','right']" data-hoffset="['30','30','-70','-144']" data-y="['top','top','top','top']" data-voffset="['-204','-204','-233','-261']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;y:-500px;rZ:90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6;border-width:0px;"><img src="{{ asset('plugins/slider-revolution/assets/images/header_flowerpot.png') }}" alt="" data-ww="['700px','700px','700px','700px']" data-hh="['600px','600px','600px','600px']" width="700" height="600" data-no-retina> </div>
                             <!-- LAYER NR. 8 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-7" data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-553']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_tablet.png" alt="" data-ww="['730px','730px','730px','730px']" data-hh="['520px','520px','520px','520px']" width="730" height="520" data-no-retina> </div>
-                            <!-- LAYER NR. 9 -->
-                            <!--
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-11" id="slide-3238-layer-8" data-x="['right','right','right','right']" data-hoffset="['222','222','105','8']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['8','8','-17','-10']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:90deg;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13;border-width:0px;"><img src="plugins/slider-revolution/assets/images/header_pen.png" alt="" data-ww="['300px','300px','300px','300px']" data-hh="['500px','500px','500px','500px']" width="300" height="500" data-no-retina> </div>
-                            -->
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-7" data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-553']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;border-width:0px;"><img src="{{ asset('plugins/slider-revolution/assets/images/header_tablet.png') }}" alt="" data-ww="['730px','730px','730px','730px']" data-hh="['520px','520px','520px','520px']" width="730" height="520" data-no-retina> </div>
                             <!-- LAYER NR. 10 -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']" data-fontsize="['80','80','80','60']" data-lineheight="['80','80','80','60']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":510,"ease":"Power4.easeOut"},{"delay":640,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">Innovation</div>
                             <!-- LAYER NR. 11 -->
@@ -188,9 +166,9 @@
         <section id="section2" class="image-block no-padding text-light theme-bkg">
             <div class="container-fluid container-image-block">
                 <div class="row">
-                    <div class="col-lg-6" style="height:609px;background:url(images/image-box-1.jpg) 50% 50% / cover no-repeat;">
+                    <div class="col-lg-6 sec2_ht" style="height:609px;background:black url({{ asset('images/image-box-1.jpg') }}) 50% 50% / cover no-repeat;">
                     </div>
-                    <div class="col-lg-6" style="height:609px">
+                    <div class="col-lg-6 sec2_ht" style="height:609px">
 
                         <h1 class="text-medium">What is H<sub>2</sub>O Slim<sup>&reg;</sup>?</h1>
                         <p class="p-b-20" style="font-weight:bold">A non-animal ingredient for calorie control.</p>
@@ -217,9 +195,9 @@
                             In fact, this cationic polymer <b>traps</b> an astonishing <b>80% of daily fat intake</b>. Fat is safely eliminated, without being absorbed by our bodies.
                         </p>
                     </div>
-                    <div class="col-lg-6" style="height:609px; background: url(images/image-box-2.jpg) 50% 50% / cover no-repeat; display: flex;
+                    <div class="col-lg-6" style="height:609px; background: url({{ asset('images/image-box-2.jpg') }}) 50% 50% / cover no-repeat; display: flex;
     align-items: center; justify-content: center;">
-                        <a href="#modalYoutube" data-lightbox="inline" class="btn btn-modal btn-lg btn-slide" data-width="215" href="#" style="width: 60px; opacity: 1">
+                        <a href="#modalYoutube" data-lightbox="inline" class="btn btn-modal btn-lg btn-slide" data-width="215" style="width: 60px; opacity: 1">
                             <i class="fa fa-play" style="margin: -1px 0 0 2px; color: #ffffff !important; text-shadow: 0 0 3px #333333;"></i>
                             <span style="margin-top: 2px; text-shadow: 0 0 3px #333333;">WATCH VIDEO</span>
                         </a>
@@ -228,10 +206,10 @@
                     <div id="modalYoutube" class="modal text-light" style="max-width: 700px; min-height:380px">
                         <div class="text-center">
                             <h1 class="m-b-0 text-medium">H<sub>2</sub>O Slim<sup>&reg;</sup> by Tradichem</h2>
-                            <h5>A non-animal water soluble ingredient for calorie control</h5>
-                            <div class="iframe-wrap m-b-20">
-                                <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/t5aG0RlUzWI" frameborder="0" allowfullscreen></iframe>
-                            </div>
+                                <h5>A non-animal water soluble ingredient for calorie control</h5>
+                                <div class="iframe-wrap m-b-20">
+                                    <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/t5aG0RlUzWI" frameborder="0" allowfullscreen></iframe>
+                                </div>
                         </div>
                     </div>
                     <!--end: Modal -->
@@ -241,64 +219,92 @@
         <!-- end: IMAGE BLOCK 2 -->
 
         <section id="section4" class="image-block no-padding">
+            <script>
+                function preload(arrayOfImages) {
+                    $(arrayOfImages).each(function() {
+                        (new Image()).src = this;
+                    });
+                }
+
+                preload([
+                    "{{ asset('images/map-logo-tradichem.png') }}",
+                    "{{ asset('images/map-logo-nutraceuticals.png') }}",
+                    "{{ asset('images/map-logo-lithy.png') }}"
+                ]);
+            </script>
             <div class="container">
                 <div class="row">
                     <div class="content">
                         <h1 class="text-medium" style="margin-top:40px">H<sub>2</sub>O Slim<sup>&reg;</sup> Partners</h1>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-bottom: 15px">
                     <div class="col-lg-12">
                         <div id="mapdiv4" style="width: 100%; height: 60vh; overflow: hidden;"></div>
                     </div>
                 </div>
-                <div class="row">
-                <div class="col-lg-12 visible" style="margin-top: 40px">
-                    <div class="icon-box small">
-                        <div class="icon">
-                            <a href="#"><i class="fa fa-building"></i></a>
+                <div class="row" style="margin-bottom: 35px">
+                    <div style="display:flex;align-items:center;margin: 20px 15px 0 0;">
+                        <div class="icon-box small icon-logo-dims">
+                            <div class="icon icon-logo-dims">
+                                <a href="#" id="map_logo_link" target="_blank"><img id="map_logo_img" src="{{ asset('images/map-logo-h2o.png') }}" class="icon-logo-dims"></a>
+                            </div>
                         </div>
-                        <h3 id="map_desc_title">Please, select a country</h3>
-                        <p id="map_desc_text">Click or hover over a country for more information</p>
+                    </div>
+                    <div style="display:flex;align-items:center;width:55vw">
+                        <div>
+                            <h3 id="map_desc_title">Please, select a country</h3>
+                            <p id="map_desc_text">Click or touch on a country for more information</p>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
 
-        <section id="section5" style="padding: 6vh 0 4vh">
-            <div class="container">
+        <section id="section5" class="image-block no-padding theme-bkg">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="content">
+                    <div id="sec5-content-c1" class="col-lg-6" style="height:560px;background-color:white">
+                        <canvas id="canvas" style="margin-top: 10px"></canvas>
+                        <div style="width: 64px; margin: 15px auto 0"><img src="{{ asset('images/sc-proven.png') }}" alt="Scientifically Proven" title="Scientifically Proven" style="width: 96px; height: 96px; opacity: 0.75"></div>
+                    </div>
+                    <div id="sec5-content-c2" class="col-lg-6 hide" style="height:560px;background:white url({{ asset('images/image-box-5.png') }}) 50% 50% / cover no-repeat;">
+                        <div>
+                            <ul style="list-style:none">
+                                <li><i class="fa fa-check"></i> &nbsp;"A solely 400 mg dosage is capable of reducing weight loss and waist circumference, with a deeper impact on the waist circumference"</li>
+                                <li style="margin-top:20px"><i class="fa fa-check"></i> &nbsp;"H<sub>2</sub>O Slim<sup>&reg;</sup> administration is associated with a decrease in the blood lipid levels"</li>
+                            </ul>
+                        </div>
+                        <div style="width: 64px;margin: 235px auto 0;float: left;">
+                            <img src="{{ asset('images/proven.png') }}" alt="Scientifically Proven" title="Scientifically Proven" style="width: 128px; height: 128px; opacity: 0.75; margin-left: -30px">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-light" style="height:560px">
+
                         <h1 class="text-medium">Best slimming product</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3"><br>
-                        <h4>H<sub>2</sub>O Slim<sup>&reg;</sup> binds and eliminates more fat than chitosan with half the dose</h4>
-                        <p>
-                            <span>H<sub>2</sub>O Slim<sup>&reg;</sup> has shown amazing results in recent clinical studies.
-                                H<sub>2</sub>O Slim<sup>&reg;</sup> can trap up to 80% of daily fat intake.
-                                H<sub>2</sub>O Slim<sup>&reg;</sup> is 2500 times more effective than liquid chitosan and 175 times more effective than powder.
-                            </span>
-                        </p>
-                    </div>
+                        <p class="p-b-20" style="font-weight:bold">Scientifically proven.</p>
 
-                    <!-- content -->
-                    <div class="content col-lg-6">
-                       <!-- chart -->
-                       <canvas id="canvas"></canvas>
-                       <!-- end: chart -->
-                       <div style="width: 64px; margin: 15px auto 0"><img src="images/sc-proven.png" alt="Scientifically Proven" title="Scientifically Proven" style="width: 64px; height: 64px; opacity: 0.75"></div>
-                    </div>
-                    <!-- end: content -->
-
-                    <div class="col-lg-3">
-                        <h4>Scientifically Proven Weight Loss</h4>
-                        <p>Randomized double-blind vs placebo-controlled design 12 weeks 100 healthy overweight volunteers</p>
-                        <ul style="list-style:none">
-                            <li><i class="fa fa-check"></i> &nbsp;"A solely 400 mg dosage is capable of reducing weight loss and waist circumference, with a deeper impact on the waist circumference"</li>
-                            <li><i class="fa fa-check"></i> &nbsp;"H<sub>2</sub>O Slim<sup>&reg;</sup> administration is associated with a decrease in the blood lipid levels"</li>
-                        </ul>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
+                            <div class="icon-box effect small" onmouseover="changeDiv('sec5-content', '1')">
+                                <div class="icon">
+                                    <a href="#" onclick="return false;"><i class="fa fa-microscope"></i></a>
+                                </div>
+                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> binds and eliminates more fat than chitosan with half the dose</h3>
+                                <ul style="margin-left: 84px; font-size: 1.2em;">
+                                    <li>H<sub>2</sub>O Slim<sup>&reg;</sup> has shown amazing results in recent clinical studies.</li>
+                                    <li>H<sub>2</sub>O Slim<sup>&reg;</sup> can trap up to 80% of daily fat intake.</li>
+                                    <li>H<sub>2</sub>O Slim<sup>&reg;</sup> is 2500 times more effective than liquid chitosan and 175 times more effective than powder.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
+                            <div class="icon-box effect small" onmouseover="changeDiv('sec5-content', '2')">
+                                <div class="icon">
+                                    <a href="#" onclick="return false;"><i class="fa fa-clipboard-check"></i></a>
+                                </div>
+                                <h3>Scientifically Proven Weight Loss</h3>
+                                <p>Randomized double-blind vs placebo-controlled design 12 weeks 100 healthy overweight volunteer.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -306,17 +312,10 @@
 
         <section id="section6" class="image-block no-padding text-light theme-bkg">
             <script>
-                function preload(arrayOfImages)
-                {
-                    $(arrayOfImages).each(function(){
-                        (new Image()).src = this;
-                    });
-                }
-
                 preload([
-                    'images/image-box-3-1.jpg',
-                    'images/image-box-3-2.jpg',
-                    'images/image-box-3-3.jpg'
+                    "{{ asset('images/image-box-3-1.jpg') }}",
+                    "{{ asset('images/image-box-3-2.jpg') }}",
+                    "{{ asset('images/image-box-3-3.jpg') }}"
                 ]);
             </script>
             <div class="container-fluid container-image-block">
@@ -331,7 +330,7 @@
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
                                 <div class="icon-box effect small" onmouseover="changePic('sec6-graphic', '3', '1')">
                                     <div class="icon">
-                                        <a href="#"><i class="fa fa-tree"></i></a>
+                                        <a href="#" onclick="return false;"><i class="fa fa-tree"></i></a>
                                     </div>
                                     <h3>Non-animal product. Non-GMO.</h3>
                                     <p>H<sub>2</sub>O Slim<sup>&reg;</sup> has been proven to be the most effective fat-trapper ingredient that has not been genetically modified nor comes from an animal.</p>
@@ -340,7 +339,7 @@
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
                                 <div class="icon-box effect small" onmouseover="changePic('sec6-graphic', '3', '2')">
                                     <div class="icon">
-                                        <a href="#"><i class="fa fa-seedling"></i></a>
+                                        <a href="#" onclick="return false;"><i class="fa fa-seedling"></i></a>
                                     </div>
                                     <h3>Vegan, Gluten-free, Sugar-free, Allergen-free.</h3>
                                     <p>H<sub>2</sub>O Slim<sup>&reg;</sup> is suitable for a wide variety of diets and it is allergen-free. H<sub>2</sub>O Slim<sup>&reg;</sup> is suitable for vegans, celiac people, diabetic people and those with shellfish allergy.</p>
@@ -349,7 +348,7 @@
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
                                 <div class="icon-box effect small" onmouseover="changePic('sec6-graphic', '3', '3')">
                                     <div class="icon">
-                                        <a href="#"><i class="fa fa-user-md"></i></a>
+                                        <a href="#" onclick="return false;"><i class="fa fa-user-md"></i></a>
                                     </div>
                                     <h3>No side effects.</h3>
                                     <p>As a natural ingredient, H<sub>2</sub>O Slim<sup>&reg;</sup> has a strong safety record with no known side effects neither interaction with any medicines reported so far. However, if you do have any existing health problems, we recommend that you consult with your doctor before you take H<sub>2</sub>O Slim<sup>&reg;</sup>.</p>
@@ -357,7 +356,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="sec6-graphic" class="col-lg-6" style="height:609px;background:url(images/image-box-3-1.jpg) 50% 50% / cover no-repeat;">
+                    <div id="sec6-graphic" class="col-lg-6" style="height:609px;background:black url({{ asset('images/image-box-3-1.jpg') }}) 50% 50% / cover no-repeat;">
                     </div>
 
                 </div>
@@ -365,7 +364,7 @@
         </section>
 
         <!-- FANCY BOXES -->
-        <section id="section7" class="box-fancy section-fullwidth no-padding" style="background-image:url(images/fbox-bkg.jpg);">
+        <section id="section7" class="box-fancy section-fullwidth no-padding" style="background-image:url({{ asset('images/fbox-bkg.jpg') }});">
             <h1 class="text-medium text-center" style="padding: 6vh 0 3vh">Quality & Traceability</h1>
             <div class="row fbox-line-row">
                 <div class="col-lg-3" style="padding-top:0!important;padding-bottom:0!important;">
@@ -385,7 +384,8 @@
                     <div class="fbox-line-ver"></div>
                 </div>
             </div>
-            <div class="row" id="quality-steps"><!-- _elements-extras.scss -->
+            <div class="row" id="quality-steps">
+                <!-- _elements-extras.scss -->
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
                     <h1 class="text-lg text-uppercase">01.</h1>
                     <h3>HARVESTING</h3>
@@ -401,14 +401,14 @@
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
                     <h1 class="text-lg text-uppercase">03.</h1>
                     <h3>GMP PRODUCTION</h3>
-                    <span>>H<sub>2</sub>O Slim<sup>&reg;</sup> is manufactured under the strictest quality controls within our GMP site, at Tradichem Industrial Services.
-</span>
+                    <span>H<sub>2</sub>O Slim<sup>&reg;</sup> is manufactured under the strictest quality controls within our GMP site, at Tradichem Industrial Services.
+                    </span>
                 </div>
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
                     <h1 class="text-lg text-uppercase">04.</h1>
                     <h3>NATURAL AND QUALITY INGREDIENT</h3>
-                    <span>>H<sub>2</sub>O Slim<sup>&reg;</sup> is a result of science and nature come together to give the natural most powerful ingredient to weight loss without any side effect reported.
-</span>
+                    <span>H<sub>2</sub>O Slim<sup>&reg;</sup> is a result of science and nature come together to give the natural most powerful ingredient to weight loss without any side effect reported.
+                    </span>
                 </div>
             </div>
         </section>
@@ -417,19 +417,79 @@
         <section id="section8" class="image-block no-padding theme-bkg">
             <script>
                 preload([
-                    'images/image-box-4-1.jpg',
-                    'images/image-box-4-2.jpg',
-                    'images/image-box-4-3.jpg'
+                    "{{ asset('images/image-box-6-1.jpg') }}",
+                    "{{ asset('images/image-box-6-2.jpg') }}",
+                    "{{ asset('images/image-box-6-3.jpg') }}",
+                    "{{ asset('images/image-box-6-4.jpg') }}"
                 ]);
             </script>
             <div class="container-fluid">
                 <div class="row">
-                    <div id="sec8-graphic" class="col-lg-6" style="height:740px;background:url(images/image-box-4-1.jpg) 50% 50% / cover no-repeat;">
+                    <div class="col-lg-6 text-light" style="height: 720px">
+
+                        <h1 class="text-medium">Line Extension 2020</h1>
+
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
+                            <div class="icon-box effect small" onmouseover="changePic('sec9-graphic', '6', '1')">
+                                <div class="icon">
+                                    <a href="#" onclick="return false;"><i class="fa fa fa-prescription-bottle"></i></a>
+                                </div>
+                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Forte</h3>
+                                <p>Helps regulate accumulated fat. With satiating properties. Triple effect: The synergy between these two ingredientes makes H<sub>2</sub>O Slim<sup>&reg;</sup> Forte your best ally that will bring a whole new meaning to your diet.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
+                            <div class="icon-box effect small" onmouseover="changePic('sec9-graphic', '6', '2')">
+                                <div class="icon">
+                                    <a href="#" onclick="return false;"><i class="fa fa-prescription-bottle"></i></a>
+                                </div>
+                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Carb</h3>
+                                <p>Helps block the excess carbs ingested with meals. Designed to help maintain proper blood sugar and achieve an improvement in body composition. Powerful combination that decrease the absorption of both carbs and fats.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
+                            <div class="icon-box effect small" onmouseover="changePic('sec9-graphic', '6', '3')">
+                                <div class="icon">
+                                    <a href="#" onclick="return false;"><i class="fa fa fa-prescription-bottle"></i></a>
+                                </div>
+                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Digest</h3>
+                                <p>Helps to support digestion and boost the immune system. Specific strain of Lactobacillus that enhances the effect of Agaricus
+Bisporus, improves digestion, reduce bloating and helps boosting the immune system.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
+                            <div class="icon-box effect small" onmouseover="changePic('sec9-graphic', '6', '4')">
+                                <div class="icon">
+                                    <a href="#" onclick="return false;"><i class="fa fa fa-prescription-bottle"></i></a>
+                                </div>
+                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Detox</h3>
+                                <p>Outstanding natural-medicine diuretic that enhances detoxification. Combination of two powerful ingredients commonly used in traditional
+Chinese and Native American medicine that help detoxify the liver eliminating more toxins.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sec9-graphic" class="col-lg-6" style="height: 720px; background: #366393 url({{ asset('images/image-box-lineext.jpg') }}) 50% 50% / contain no-repeat;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section9" class="image-block no-padding theme-bkg">
+            <script>
+                preload([
+                    "{{ asset('images/image-box-4-1.jpg') }}",
+                    "{{ asset('images/image-box-4-2.jpg') }}",
+                    "{{ asset('images/image-box-4-3.jpg') }}"
+                ]);
+            </script>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="sec8-graphic" class="col-lg-6" style="height:740px;background: black url({{ asset('images/image-box-4-1.jpg') }}) 50% 50% / cover no-repeat;">
                     </div>
                     <div class="col-lg-6 text-light" style="height:740px">
 
                         <h1 class="text-medium">About Tradichem<sup>&reg;</sup></h1>
-                        <p class="p-b-20" style="font-weight:bold"><a href="https://tradichem.es" target="_blank">tradichem.es</a></p>
+                        <p class="p-b-20" style="font-weight:bold"><a href="https://tradichem.es" target="_blank"><i class="fa fa-globe"></i>&nbsp;&nbsp; tradichem.es</a></p>
 
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
                             <div class="icon-box effect small" onmouseover="changePic('sec8-graphic', '4', '1')">
@@ -472,7 +532,7 @@
             </div>
         </section>
 
-        <section id="section9" style="padding: 5vh 0 9vh">
+        <section id="section10" style="padding: 5vh 0 9vh">
             <div class="container" style="margin-top:30px auto 40px">
                 <h1 class="text-medium text-center">Video gallery</h1>
                 <hr class="space">
@@ -500,7 +560,7 @@
                     <div class="row">
 
                         <div class="col-lg-3">
-                            <img src="images/logo-h2oslim.png" alt="H2O Slim" style="width: 20vh; padding-bottom: 2vh">
+                            <img src="{{ asset('images/logo-h2oslim.png') }}" alt="H2O Slim" style="width: 20vh; padding-bottom: 2vh">
                             <p>A natural non-animal water soluble ingredient for calorie control.</p>
                             <div class="mb-4 social-icons social-icons-border social-icons-rounded social-icons-colored-hover">
                                 <ul>
@@ -521,23 +581,24 @@
                                     Madrid, Spain.<br><br>
                                     <i class="fa fa-phone"></i> +34 918 75 98 98
                                 </p>
-                                <a href="https://tradichem.es/" target="_blank"><img src="images/logo-tradichem-home.png" alt="Tradichem.es"></a>
+                                <a href="https://tradichem.es/" target="_blank"><img src="{{ asset('images/logo-tradichem-home.png') }}" alt="Tradichem.es"></a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 m-t-30">
                             <div class="widget clearfix widget-categories">
                                 <h4 class="widget-title">Page sections</h4>
-                                <ul class="list list-arrow-icons">
-                                <li><i class="fa fa-home"></i> &nbsp;<a href="#slider"><span>HOME</span></a></li>
+                                <ul id="footer-links" class="list list-arrow-icons">
+                                    <li><i class="fa fa-home"></i> &nbsp;<a href="#slider"><span>HOME</span></a></li>
                                     <li><i class="fa fa-question"></i> &nbsp;<a href="#section2"><span>WHAT IS H2Oslim<sup>&reg;</sup>?</span></a></li>
                                     <li><i class="fa fa-cogs"></i> &nbsp;<a href="#section3"><span>HOW DOES H2Oslim<sup>&reg;</sup> WORK?</span></a></li>
                                     <li><i class="fa fa-globe"></i> &nbsp;<a href="#section4"><span>H<sub>2</sub>O SLIM<sup>&reg;</sup> PARTNERS</span></a></li>
                                     <li><i class="fa fa-chart-line"></i> &nbsp;<a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
                                     <li><i class="fa fa-leaf"></i> &nbsp;<a href="#section6"><span>NATURAL PRODUCT</span></a></li>
                                     <li><i class="fa fa-award"></i> &nbsp;<a href="#section7"><span>QUALITY & TRACEABILITY</span></a></li>
-                                    <li><i class="fa fa-info"></i> &nbsp;<a href="#section8"><span>ABOUT TRADICHEM</span></a></li>
-                                    <li><i class="fa fa-film"></i> &nbsp;<a href="#section9"><span>VIDEO GALLERY</span></a></li>
+                                    <li><i class="fa fa-prescription-bottle"></i> &nbsp;<a href="#section8"><span>LINE EXTENSION 2020</span></a></li>
+                                    <li><i class="fa fa-info"></i> &nbsp;<a href="#section9"><span>ABOUT TRADICHEM</span></a></li>
+                                    <li><i class="fa fa-film"></i> &nbsp;<a href="#section10"><span>VIDEO GALLERY</span></a></li>
                                     <li><i class="fa fa-address-card"></i> &nbsp;<a href="#footer"><span>CONTACT DETAILS</span></a></li>
                                 </ul>
                             </div>
@@ -560,13 +621,18 @@
     </div>
     <!-- end: Body Inner -->
 
-    <!-- Custom Pic Changer -->
+    <!-- Custom Pic & Div Changers -->
     <script>
-            function changePic(block, group, num)
-            {
-                $('#' + block).css('background-image', 'url(images/image-box-'+group+'-'+num+'.jpg)');
-                return false;
-            }
+        function changePic(block, group, num) {
+            $('#' + block).css('background-image', 'url(images/image-box-' + group + '-' + num + '.jpg)');
+            return false;
+        }
+
+        function changeDiv(block, num) {
+            $('#' + block + '-c' + num).removeClass('hide');
+            $('#' + block + '-c' + (num == '1' ? '2' : '1')).addClass('hide');
+            return false;
+        }
     </script>
 
     <!-- Scroll top -->
@@ -594,26 +660,27 @@
             data: {
                 labels: ['0', '200', '400', '600', '800'],
                 datasets: [{
-                    label: 'H₂O Slim',
-                    backgroundColor: window.chartColors.blue,
-                    borderColor: window.chartColors.blue,
-                    data: [40, 40, 60, 80, 80],
-                    fill: false,
-                },
-                {
-                    label: 'Chitosan',
-                    fill: false,
-                    backgroundColor: window.chartColors.red,
-                    borderColor: window.chartColors.red,
-                    data: [20, 20, 40, 60, 60],
-                },
-                {
-                    label: 'Chitosan + SA',
-                    fill: false,
-                    backgroundColor: '#eda257',
-                    borderColor: '#eda257',
-                    data: [10, 20, 30, 35, 40]
-                }]
+                        label: 'H₂O Slim',
+                        backgroundColor: window.chartColors.blue,
+                        borderColor: window.chartColors.blue,
+                        data: [40, 40, 60, 80, 80],
+                        fill: false,
+                    },
+                    {
+                        label: 'Chitosan',
+                        fill: false,
+                        backgroundColor: window.chartColors.red,
+                        borderColor: window.chartColors.red,
+                        data: [20, 20, 40, 60, 60],
+                    },
+                    {
+                        label: 'Chitosan + SA',
+                        fill: false,
+                        backgroundColor: '#eda257',
+                        borderColor: '#eda257',
+                        data: [10, 20, 30, 35, 40]
+                    }
+                ]
             },
             options: {
                 responsive: true,
@@ -647,7 +714,7 @@
                 }
             }
         };
-        window.onload = function () {
+        window.onload = function() {
             var ctx = document.getElementById('canvas').getContext('2d');
             window.myLine = new Chart(ctx, config);
         };
@@ -667,18 +734,18 @@
         chart.projection = new am4maps.projections.Miller();
         // Disable wheel and drag
         chart.chartContainer.wheelable = false;
-//        chart.seriesContainer.draggable = false;
-/*
-        // Export
-        chart.exporting.menu = new am4core.ExportMenu();
-*/
+        //        chart.seriesContainer.draggable = false;
+        /*
+                // Export
+                chart.exporting.menu = new am4core.ExportMenu();
+        */
 
         // Zoom control
         chart.zoomControl = new am4maps.ZoomControl();
 
         // Home button
         var homeButton = new am4core.Button();
-        homeButton.events.on("hit", function () {
+        homeButton.events.on("hit", function() {
             chart.goHome();
         });
         homeButton.icon = new am4core.Sprite();
@@ -691,24 +758,25 @@
 
         // Center on the groups by default
         chart.homeZoomLevel = 1;
-/*
-        chart.homeGeoPoint = {
-            longitude: 10,
-            latitude: 52
-        };
-*/
-        var groupData = [
-            {
+        /*
+                chart.homeGeoPoint = {
+                    longitude: 10,
+                    latitude: 52
+                };
+        */
+        var groupData = [{
                 "name": "Nutraceuticals Group (USA & México)",
                 "color": "#7DB378",
                 "data": [{
                     "title": "USA",
                     "id": "US",
-                    "customData": "Nutraceuticals Group (USA)"
+                    "customData": "Nutraceuticals Group (USA)",
+                    "continent": "America"
                 }, {
                     "title": "Mexico",
                     "id": "MX",
-                    "customData": "Nutraceuticals Group (Mexico)"
+                    "customData": "Nutraceuticals Group (Mexico)",
+                    "continent": "America"
                 }]
             },
             {
@@ -717,7 +785,228 @@
                 "data": [{
                     "title": "Spain",
                     "id": "ES",
-                    "customData": "Tradichem S.L. (Spain)"
+                    "customData": "Tradichem S.L. (Spain)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Albania",
+                    "id": "AL",
+                    "customData": "Tradichem S.L. (Albania)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Andorra",
+                    "id": "AD",
+                    "customData": "Tradichem S.L. (Andorra)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Armenia",
+                    "id": "AM",
+                    "customData": "Tradichem S.L. (Armenia)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Austria",
+                    "id": "AT",
+                    "customData": "Tradichem S.L. (Austria)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Belarus",
+                    "id": "BY",
+                    "customData": "Tradichem S.L. (Belarus)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Belgium",
+                    "id": "BE",
+                    "customData": "Tradichem S.L. (Belgium)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Bosnia and Herzegovina",
+                    "id": "BA",
+                    "customData": "Tradichem S.L. (Bosnia and Herzegovina)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Bulgaria",
+                    "id": "BG",
+                    "customData": "Tradichem S.L. (Bulgaria)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Switzerland",
+                    "id": "CH",
+                    "customData": "Tradichem S.L. (Switzerland)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Cyprus",
+                    "id": "CY",
+                    "customData": "Tradichem S.L. (Cyprus)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Czech Republic",
+                    "id": "CZ",
+                    "customData": "Tradichem S.L. (Czech Republic)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Germany",
+                    "id": "DE",
+                    "customData": "Tradichem S.L. (Germany)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Denmark",
+                    "id": "DK",
+                    "customData": "Tradichem S.L. (Denmark)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Estonia",
+                    "id": "EE",
+                    "customData": "Tradichem S.L. (Estonia)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Spain",
+                    "id": "ES",
+                    "customData": "Tradichem S.L. (Spain)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Faeroe Islands",
+                    "id": "FO",
+                    "customData": "Tradichem S.L. (Faeroe Islands)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Finland",
+                    "id": "FI",
+                    "customData": "Tradichem S.L. (Finland)",
+                    "continent": "Europe"
+                }, {
+                    "title": "France",
+                    "id": "FR",
+                    "customData": "Tradichem S.L. (France)",
+                    "continent": "Europe"
+                }, {
+                    "title": "United Kingdom",
+                    "id": "GB",
+                    "customData": "Tradichem S.L. (United Kingdom)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Georgia",
+                    "id": "GE",
+                    "customData": "Tradichem S.L. (Georgia)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Gibraltar",
+                    "id": "GI",
+                    "customData": "Tradichem S.L. (Gibraltar)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Greece",
+                    "id": "GR",
+                    "customData": "Tradichem S.L. (Greece)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Hungary",
+                    "id": "HU",
+                    "customData": "Tradichem S.L. (Hungary)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Croatia",
+                    "id": "HR",
+                    "customData": "Tradichem S.L. (Croatia)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Ireland",
+                    "id": "IE",
+                    "customData": "Tradichem S.L. (Ireland)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Italy",
+                    "id": "IT",
+                    "customData": "Tradichem S.L. (Italy)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Lithuania",
+                    "id": "LT",
+                    "customData": "Tradichem S.L. (Lithuania)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Luxembourg",
+                    "id": "LU",
+                    "customData": "Tradichem S.L. (Luxembourg)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Latvia",
+                    "id": "LV",
+                    "customData": "Tradichem S.L. (Latvia)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Monaco",
+                    "id": "MC",
+                    "customData": "Tradichem S.L. (Monaco)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Macedonia",
+                    "id": "MK",
+                    "customData": "Tradichem S.L. (Macedonia)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Malta",
+                    "id": "MT",
+                    "customData": "Tradichem S.L. (Malta)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Norway",
+                    "id": "NO",
+                    "customData": "Tradichem S.L. (Norway)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Netherlands",
+                    "id": "NL",
+                    "customData": "Tradichem S.L. (Netherlands)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Poland",
+                    "id": "PL",
+                    "customData": "Tradichem S.L. (Poland)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Portugal",
+                    "id": "PT",
+                    "customData": "Tradichem S.L. (Portugal)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Romania",
+                    "id": "RO",
+                    "customData": "Tradichem S.L. (Romania)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Sweden",
+                    "id": "SE",
+                    "customData": "Tradichem S.L. (Sweden)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Slovenia",
+                    "id": "SI",
+                    "customData": "Tradichem S.L. (Slovenia)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Slovakian Republic",
+                    "id": "SK",
+                    "customData": "Tradichem S.L. (Slovakian Republic)",
+                    "continent": "Europe"
+                }, {
+                    "title": "San Marino",
+                    "id": "SM",
+                    "customData": "Tradichem S.L. (San Marino)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Turkey",
+                    "id": "TR",
+                    "customData": "Tradichem S.L. (Turkey)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Ukraine",
+                    "id": "UA",
+                    "customData": "Tradichem S.L. (Ukraine)",
+                    "continent": "Europe"
+                }, {
+                    "title": "Vatican City State",
+                    "id": "VA",
+                    "customData": "Tradichem S.L. (Vatican City State)",
+                    "continent": "Europe"
                 }]
             },
             {
@@ -726,19 +1015,20 @@
                 "data": [{
                     "title": "China",
                     "id": "CN",
-                    "customData": "Lithy (China)"
+                    "customData": "Lithy (China)",
+                    "continent": "Asia"
                 }]
             }
         ];
         // This array will be populated with country IDs to exclude from the world series
         var excludedCountries = ["AQ"]; // Exclude Antarctica
         // Create a series for each group, and populate the above array
-        groupData.forEach(function (group) {
+        groupData.forEach(function(group) {
             var series = chart.series.push(new am4maps.MapPolygonSeries());
             series.name = group.name;
             series.useGeodata = true;
             var includedCountries = [];
-            group.data.forEach(function (country) {
+            group.data.forEach(function(country) {
                 includedCountries.push(country.id);
                 excludedCountries.push(country.id);
             });
@@ -754,28 +1044,29 @@
             // Events
             mapPolygonTemplate.events.on("hit", function(ev) {
                 // zoom to an object
-//                ev.target.series.chart.zoomToMapObject(ev.target);
+                //                ev.target.series.chart.zoomToMapObject(ev.target);
 
-                // get object info
-                var countryName = ev.target.dataItem.dataContext.name;
-
-                console.log("*" + countryName + "*");
-                switch (countryName)
-                {
-                    case 'Spain':
-                        $('#map_desc_title').text("Tradichem S.L. (Spain)");
+                switch (ev.target.dataItem.dataContext.continent) {
+                    case 'Europe':
+                        $('#map_desc_title').html("<a id='map_title_link' href='#' target='_blank'>Tradichem S.L.</a> (Europe)");
                         $('#map_desc_text').text("TRADICHEM S.L. is a European leader in the marketing and development of nutraceuticals and APIs. Since 1993 TRADICHEM has been developing high-quality products for a better life. Their work is defined by a long-term strategy which brings benefits to their customers, partners and employees. Since 2008 the company has experienced an internal technological evolution becoming an integral company formed by a logistics GDP warehouse, an innovation center and an industrial GMP site for APIs processing (TIS).");
-                    break;
+                        $('#map_logo_link,#map_title_link').attr('href', 'https://tradichem.es/');
+                        $('#map_logo_img').attr('src', "{{ asset('images/map-logo-tradichem.png') }}");
+                        break;
 
-                    case 'United States':
-                        $('#map_desc_title').text("Nutraceuticals Group (USA & México)");
+                    case 'America':
+                        $('#map_desc_title').html("<a id='map_title_link' href='#' target='_blank'>Nutraceuticals Group</a> (USA & México)");
                         $('#map_desc_text').text("Nutraceuticals International Group® is a global ingredient supplier with over 35 years of knowledge and experience in the natural products industry. Nutraceuticals International Group ® leads the industry by staying ahead of the trends. They continually add the newest, most exclusive ingredients to their product list and keep their customers one step ahead of the competition. They pride themselves on providing great customer service, technical support, and competitive pricing.");
-                    break;
+                        $('#map_logo_link,#map_title_link').attr('href', 'https://nutraceuticalsgroup.com/us');
+                        $('#map_logo_img').attr('src', "{{ asset('images/map-logo-nutraceuticals.png') }}");
+                        break;
 
-                    case 'China':
-                        $('#map_desc_title').text("Lithy (China)");
+                    case 'Asia':
+                        $('#map_desc_title').html("<a id='map_title_link' href='#' target='_blank'>Lithy</a> (China)");
                         $('#map_desc_text').text("With more than 28 years of industry experience, Lithy strives to be the leader of China’s Nutrition and Health industry. Lithy was founded in 2002. As a well-known overall solutions service provider of health and beauty products, Lithy focuses on the construction of the whole industrial chain system including R&D, production, and sales of global nutrition and health products.");
-                    break;
+                        $('#map_logo_link,#map_title_link').attr('href', 'http://www.lithy.net/en/index/Page/index/catid/2.html');
+                        $('#map_logo_img').attr('src', "{{ asset('images/map-logo-lithy.png') }}");
+                        break;
                 }
             });
             // Instead of our custom title, we could also use {name} which comes from geodata
@@ -818,24 +1109,33 @@
     <script>
         window.sr = ScrollReveal({
             // Animation
-            origin      : 'top',
-            distance    : '20px',
-            duration    : 3000,
-            delay       : 150,
-            useDelay    : 'always',
-            interval    : 150,
-			rotate      : { x: 0, y: 90, z: 0 },
-            opacity     : 0,
-            scale       : 0,
-            easing      : 'ease-out',
+            origin: 'top',
+            distance: '20px',
+            duration: 3000,
+            delay: 150,
+            useDelay: 'always',
+            interval: 150,
+            rotate: {
+                x: 0,
+                y: 90,
+                z: 0
+            },
+            opacity: 0,
+            scale: 0,
+            easing: 'ease-out',
 
             // Options
-            container   : null,
-            mobile      : true,
-            reset       : true,
-            useDelay    : 'always',
-            viewFactor  : 0.30,
-            viewOffset  : { top: 0, right: 0, bottom: 0, left: 0 }
+            container: null,
+            mobile: true,
+            reset: true,
+            useDelay: 'always',
+            viewFactor: 0.30,
+            viewOffset: {
+                top: 0,
+                right: 0,
+                bottom: 0,
+                left: 0
+            }
         });
         sr.reveal('#quality-steps div');
     </script>
