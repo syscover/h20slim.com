@@ -264,8 +264,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div id="sec5-content-c1" class="col-lg-6" style="height:560px;background-color:white">
-                        <canvas id="canvas" style="margin-top: 10px"></canvas>
-                        <div style="width: 64px; margin: 15px auto 0"><img src="{{ asset('images/sc-proven.png') }}" alt="Scientifically Proven" title="Scientifically Proven" style="width: 96px; height: 96px; opacity: 0.75"></div>
+                        <div id="sec5-graph"><canvas id="canvas" style="margin-top: 10px"></canvas><div>
+                        <div style="display:none" style="width: 64px; margin: 15px auto 0"><img src="{{ asset('images/sc-proven.png') }}" alt="Scientifically Proven" title="Scientifically Proven" style="width: 96px; height: 96px; opacity: 0.75"></div>
                     </div>
                     <div id="sec5-content-c2" class="col-lg-6 hide" style="height:560px;background:white url({{ asset('images/image-box-5.png') }}) 50% 50% / cover no-repeat;">
                         <div>
