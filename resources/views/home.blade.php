@@ -5,14 +5,30 @@
     <!-- TODO: Añadir variable assets de blade -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="H2O Slim by Tradichem">
+    <meta name="description" content="H2OSlim by Tradichem">
     <meta name="author" content="Digital H2">
     <meta name="generator" content="Pulsar (http://www.syscover.com)">
     <meta name="designer" content="Octavio Molano">
-    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ asset('android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ asset('ms-icon-144x144.png') }}">
+    <meta name="theme-color" content="#ffffff">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>H2O Slim by Tradichem</title>
+    <title>H2OSlim by Tradichem</title>
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -63,10 +79,10 @@
                 <li><i class="fa fa-home"></i><a href="#slider"><span>HOME</span></a></li>
                 <li><i class="fa fa-question"></i><a href="#section2"><span>WHAT IS H2Oslim<sup>&reg;</sup>?</span></a></li>
                 <li><i class="fa fa-cogs"></i><a href="#section3"><span>HOW DOES H2Oslim<sup>&reg;</sup> WORK?</span></a></li>
-                <li><i class="fa fa-globe"></i><a href="#section4"><span>H<sub>2</sub>O SLIM<sup>&reg;</sup> PARTNERS</span></a></li>
+                <li><i class="fa fa-globe"></i><a href="#section4"><span>H<sub>2</sub>OSLIM<sup>&reg;</sup> PARTNERS</span></a></li>
                 <li><i class="fa fa-chart-line"></i><a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
                 <li><i class="fa fa-leaf"></i><a href="#section6"><span>NATURAL PRODUCT</span></a></li>
-                <li><i class="fa fa-award"></i><a href="#section7"><span>QUALITY & TRACEABILITY</span></a></li>
+                <li><i class="fa fa-award"></i><a href="#section7"><span>FROM THE SOIL TO THE CONSUMER</span></a></li>
                 <li><i class="fa fa-prescription-bottle"></i><a href="#section8"><span>LINE EXTENSION 2020</span></a></li>
                 <li><i class="fa fa-info"></i><a href="#section9"><span>ABOUT TRADICHEM</span></a></li>
                 <li><i class="fa fa-film"></i><a href="#section10"><span>VIDEO GALLERY</span></a></li>
@@ -85,25 +101,23 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-3238" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="500" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="{{ asset('images/home-bkg-3.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('images/home-bkg-' . rand(1,3) . '.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
-                            <!-- LAYER NR. 1 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-3238-layer-4" data-x="['left','left','left','left']" data-hoffset="['-264','-264','-371','-416']" data-y="['top','top','top','top']" data-voffset="['-135','-135','-180','-203']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;border-width:0px;"><img src="{{ asset('plugins/slider-revolution/assets/images/header_penpot.png') }}" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
-                            <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-5" data-x="['right','right','right','right']" data-hoffset="['30','30','-70','-144']" data-y="['top','top','top','top']" data-voffset="['-204','-204','-233','-261']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;y:-500px;rZ:90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6;border-width:0px;"><img src="{{ asset('plugins/slider-revolution/assets/images/header_flowerpot.png') }}" alt="" data-ww="['700px','700px','700px','700px']" data-hh="['600px','600px','600px','600px']" width="700" height="600" data-no-retina> </div>
-                            <!-- LAYER NR. 8 -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-7" data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-553']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;border-width:0px;"><img src="{{ asset('plugins/slider-revolution/assets/images/header_tablet.png') }}" alt="" data-ww="['730px','730px','730px','730px']" data-hh="['520px','520px','520px','520px']" width="730" height="520" data-no-retina> </div>
-                            <!-- LAYER NR. 10 -->
+                            <!-- LOGO: H2OSLIM -->
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-3238-layer-4" data-x="['left','left','left','left']" data-hoffset="['-264','-264','-371','-416']" data-y="['top','top','top','top']" data-voffset="['-135','-135','-180','-203']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;border-width:0px;"><img src="{{ asset('images/header_penpot.png') }}" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
+                            <!-- LOGO: TRADICHEM -->
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-7" data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-553']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;border-width:0px;"><img src="{{ asset('images/header_tablet.png') }}" alt="" data-ww="['730px','730px','730px','730px']" data-hh="['520px','520px','520px','520px']" width="730" height="520" data-no-retina> </div>
+                            <!-- TEXT: INNOVATION -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']" data-fontsize="['80','80','80','60']" data-lineheight="['80','80','80','60']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":510,"ease":"Power4.easeOut"},{"delay":640,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">Innovation</div>
-                            <!-- LAYER NR. 11 -->
+                            <!-- TEXT: NATURE -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-15" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']" data-fontsize="['80','80','80','60']" data-lineheight="['80','80','80','60']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":2940,"ease":"Power4.easeOut"},{"delay":660,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">Nature</div>
-                            <!-- LAYER NR. 12 -->
+                            <!-- TEXT: CALORIE CONTROL -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-16" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']" data-fontsize="['80','80','80','60']" data-lineheight="['80','80','80','60']" data-width="['none','none','none','400']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":5390,"ease":"Power4.easeOut"},{"delay":"wait","speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 16; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">Calorie control</div>
-                            <!-- LAYER NR. 13 -->
+                            <!-- TEXT: BREAKTHROUGH INNOVATION IN FAT TRAPPING PRODUCTS -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-2" data-x="['center','center','center','center']" data-hoffset="['-8','-8','-8','-8']" data-y="['middle','middle','middle','middle']" data-voffset="['10','10','10','-10']" data-fontsize="['20','20','20','25']" data-lineheight="['20','20','20','30']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:50px;rX:45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":600,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17; white-space: nowrap; font-size: 20px; line-height: 20px; font-weight: 400; color: rgba(68, 68, 68, 1.00);font-family:Roboto;border-width:0px;">Breakthrough innovation in fat trapping products</div>
-                            <!-- LAYER NR. 14 -->
+                            <!-- BUTTON: LEARN MORE -->
                             <div class="tp-caption rev-btn rs-parallaxlevel-3 home-button" id="slide-3238-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['92','92','92','92']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]' data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"y:100px;rX:90deg;opacity:0;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(255, 255, 255, 1.00);bs:solid;"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[30,30,30,30]" style="z-index: 18; white-space: nowrap; font-size: 15px; line-height: 50px; font-weight: 700;font-family:Roboto;border-color:rgba(0, 0, 0, 1.00);border-width:0px;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:2px;cursor:pointer;">LEARN MORE</div>
-                            <!-- LAYER NR. 15 -->
+                            <!-- ICON: MOUSE -->
                             <div class="tp-caption rev-scroll-btn revs-dark  rs-parallaxlevel-5" id="slide-3238-layer-13" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['50','50','50','50']" data-width="35" data-height="55" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]' data-basealign="slide" data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"y:-50px;opacity:0;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 19; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;border-color:rgba(51, 51, 51, 1.00);border-style:solid;border-width:3px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;box-shadow: 0 0 10px white">
                                 <span>
                                 </span>
@@ -166,13 +180,13 @@
         <section id="section2" class="image-block no-padding text-light theme-bkg">
             <div class="container-fluid container-image-block">
                 <div class="row">
-                    <div class="col-lg-6 sec2_ht" style="height:609px;background:black url({{ asset('images/image-box-1.jpg') }}) 50% 50% / cover no-repeat;">
+                    <div class="col-lg-6 sec2-ht" style="background:black url({{ asset('images/image-box-1.jpg') }}) 50% 50% / cover no-repeat;">
                     </div>
-                    <div class="col-lg-6 sec2_ht" style="height:609px">
+                    <div class="col-lg-6 sec2-ht">
 
-                        <h1 class="text-medium">What is H<sub>2</sub>O Slim<sup>&reg;</sup>?</h1>
+                        <h1 class="text-medium">What is H<sub>2</sub>OSlim<sup>&reg;</sup>?</h1>
                         <p class="p-b-20" style="font-weight:bold">A non-animal ingredient for calorie control.</p>
-                        <p>Nature provides all the resources for sustaining a healthy life and mushrooms are one of the species living in the soil that has been used for ages due to its amazing and healthful properties.</p>
+                        <p>Nature provides all the resources for sustaining a healthy life and mushrooms are one of the species living in the soil that have been used down the ages due to their amazing health properties.</p>
                         <p>At its <b>GMP</b> facilities, <b>Tradichem S.L.</b> has studied thoroughly the remarkable properties of Agaricus Bisporus. Our research revealed that certain compounds in this species may have an effect on lipids, potentially linked to the mushroom's content in a type of soluble polysaccharide. These have a tendency to capture the fat present in food and may, as a result, <b>reduce fat absorption and facilitate its elimination</b>. This represents a significant aid to those who wish to achieve effective, long-lasting weight loss.</p>
                     </div>
                 </div>
@@ -184,28 +198,31 @@
         <section id="section3" class="image-block no-padding text-light theme-bkg">
             <div class="container-fluid container-image-block">
                 <div class="row">
-                    <div class="col-lg-6" style="height:609px">
-                        <h1 class="text-medium">How does H<sub>2</sub>O Slim<sup>&reg;</sup> work?</h1>
+                    <div class="col-lg-6 sec3-ht">
+                        <h1 class="text-medium">How does H<sub>2</sub>OSlim<sup>&reg;</sup> work?</h1>
                         <p class="p-b-20" style="font-weight:bold">A new and effective natural product for calorie control.</p>
-                        <p>With just a glass of water and a 400mg tablet or capsule, H<sub>2</sub>O Slim<sup>&reg;</sup> begins to work.</p>
+                        <p>With just a glass of water and a 400mg tablet or capsule, H<sub>2</sub>OSlim<sup>&reg;</sup> begins to work.</p>
                         <p>
-                            Once ingested, H<sub>2</sub>O Slim<sup>&reg;</sup> creates a cationic polymer, harmless to the body, capable of trapping ingested fat through physical and electrostatic forces.
+                            Once ingested, H<sub>2</sub>OSlim<sup>&reg;</sup> creates a cationic polymer, harmless to the body, capable of trapping ingested fat through physical and electrostatic forces.
                         </p>
                         <p>
                             In fact, this cationic polymer <b>traps</b> an astonishing <b>80% of daily fat intake</b>. Fat is safely eliminated, without being absorbed by our bodies.
                         </p>
                     </div>
-                    <div class="col-lg-6" style="height:609px; background: url({{ asset('images/image-box-2.jpg') }}) 50% 50% / cover no-repeat; display: flex;
+                    <div class="col-lg-6 sec3-ht" style="background: url({{ asset('images/image-box-2.jpg') }}) 50% 50% / cover no-repeat; display: flex;
     align-items: center; justify-content: center;">
-                        <a href="#modalYoutube" data-lightbox="inline" class="btn btn-modal btn-lg btn-slide" data-width="215" style="width: 60px; opacity: 1">
+                        <a id="watch_btn" href="#modalYoutube" data-lightbox="inline" class="btn btn-modal btn-lg btn-slide" data-width="215" style="width: 60px; opacity: 1">
                             <i class="fa fa-play" style="margin: -1px 0 0 2px; color: #ffffff !important; text-shadow: 0 0 3px #333333;"></i>
                             <span style="margin-top: 2px; text-shadow: 0 0 3px #333333;">WATCH VIDEO</span>
                         </a>
+                        <div id="video_click" onclick="$('#watch_btn').trigger('mouseover')">
+                            CLICK!
+                        </div>
                     </div>
                     <!-- Modal -->
                     <div id="modalYoutube" class="modal text-light" style="max-width: 700px; min-height:380px">
                         <div class="text-center">
-                            <h1 class="m-b-0 text-medium">H<sub>2</sub>O Slim<sup>&reg;</sup> by Tradichem</h2>
+                            <h1 class="m-b-0 text-medium">H<sub>2</sub>OSlim<sup>&reg;</sup> by Tradichem</h2>
                                 <h5>A non-animal water soluble ingredient for calorie control</h5>
                                 <div class="iframe-wrap m-b-20">
                                     <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/t5aG0RlUzWI" frameborder="0" allowfullscreen></iframe>
@@ -234,8 +251,8 @@
             </script>
             <div class="container">
                 <div class="row">
-                    <div class="content">
-                        <h1 class="text-medium" style="margin-top:40px">H<sub>2</sub>O Slim<sup>&reg;</sup> Partners</h1>
+                    <div class="content" style="margin-bottom:0">
+                        <h1 class="text-medium" style="margin-top:40px">H<sub>2</sub>OSlim<sup>&reg;</sup> Partners</h1>
                     </div>
                 </div>
                 <div class="row" style="margin-bottom: 15px">
@@ -263,36 +280,38 @@
         <section id="section5" class="image-block no-padding theme-bkg">
             <div class="container-fluid">
                 <div class="row">
-                    <div id="sec5-content-c1" class="col-lg-6" style="height:560px;background-color:white">
-                        <div id="sec5-graph"><canvas id="canvas" style="margin-top: 10px"></canvas><div>
-                        <div style="display:none" style="width: 64px; margin: 15px auto 0"><img src="{{ asset('images/sc-proven.png') }}" alt="Scientifically Proven" title="Scientifically Proven" style="width: 96px; height: 96px; opacity: 0.75"></div>
+                    <div id="sec5-content-c1" class="col-lg-6 sec5-ht" style="background-color:white">
+                        <div id="sec5-graph"><canvas id="canvas"></canvas></div>
+                        <div id="sec5-portrait-msg">Please rotate your device to landscape orientation to see this graph properly</div>
                     </div>
-                    <div id="sec5-content-c2" class="col-lg-6 hide" style="height:560px;background:white url({{ asset('images/image-box-5.png') }}) 50% 50% / cover no-repeat;">
+                    <div id="sec5-content-c2" onclick="window.open('pdf/H2OSlim_2020.pdf', '_blank', 'fullscreen=yes'); return false;" class="col-lg-6 sec5-ht hide" style="cursor:pointer;background:white url({{ asset('images/image-box-5.png') }}) 50% 50% / cover no-repeat;">
                         <div>
                             <ul style="list-style:none">
                                 <li><i class="fa fa-check"></i> &nbsp;"A solely 400 mg dosage is capable of reducing weight loss and waist circumference, with a deeper impact on the waist circumference"</li>
-                                <li style="margin-top:20px"><i class="fa fa-check"></i> &nbsp;"H<sub>2</sub>O Slim<sup>&reg;</sup> administration is associated with a decrease in the blood lipid levels"</li>
                             </ul>
                         </div>
-                        <div style="width: 64px;margin: 235px auto 0;float: left;">
-                            <img src="{{ asset('images/proven.png') }}" alt="Scientifically Proven" title="Scientifically Proven" style="width: 128px; height: 128px; opacity: 0.75; margin-left: -30px">
+                        <div style="position: absolute; bottom: 35px; margin: 0 40px 0 20px; left: 30px;">
+                            <img src="{{ asset('images/proven.png') }}" alt="Clinically Proven" title="Clinically Proven" style="width: 128px; height: 128px; opacity: 0.75; margin-left: -10px">
+                            <ul style="list-style:none">
+                                <li style="margin-top:20px"><i class="fa fa-check"></i> &nbsp;"H<sub>2</sub>OSlim<sup>&reg;</sup> administration is associated with a decrease in the blood lipid levels"</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-light" style="height:560px">
+                    <div class="col-lg-6 text-light sec5-ht">
 
                         <h1 class="text-medium">Best slimming product</h1>
-                        <p class="p-b-20" style="font-weight:bold">Scientifically proven.</p>
+                        <p class="p-b-20" style="font-weight:bold">Clinically proven.</p>
 
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
                             <div class="icon-box effect small" onmouseover="changeDiv('sec5-content', '1')">
                                 <div class="icon">
                                     <a href="#" onclick="return false;"><i class="fa fa-microscope"></i></a>
                                 </div>
-                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> binds and eliminates more fat than chitosan with half the dose</h3>
+                                <h3>400mg of H<sub>2</sub>OSlim<sup>&reg;</sup> eliminates more fat than 800mg of Chitosan</h3>
                                 <ul style="margin-left: 84px; font-size: 1.2em;">
-                                    <li>H<sub>2</sub>O Slim<sup>&reg;</sup> has shown amazing results in recent clinical studies.</li>
-                                    <li>H<sub>2</sub>O Slim<sup>&reg;</sup> can trap up to 80% of daily fat intake.</li>
-                                    <li>H<sub>2</sub>O Slim<sup>&reg;</sup> is 2500 times more effective than liquid chitosan and 175 times more effective than powder.</li>
+                                    <li>H<sub>2</sub>OSlim<sup>&reg;</sup> has shown amazing results in recent clinical studies.</li>
+                                    <li>H<sub>2</sub>OSlim<sup>&reg;</sup> can trap up to 80% of daily fat intake.</li>
+                                    <li>H<sub>2</sub>OSlim<sup>&reg;</sup> is 2500 times more effective than liquid chitosan and 175 times more effective than powder.</li>
                                 </ul>
                             </div>
                         </div>
@@ -301,7 +320,7 @@
                                 <div class="icon">
                                     <a href="#" onclick="return false;"><i class="fa fa-clipboard-check"></i></a>
                                 </div>
-                                <h3>Scientifically Proven Weight Loss</h3>
+                                <h3>Clinically Proven Weight Loss</h3>
                                 <p>Randomized double-blind vs placebo-controlled design 12 weeks 100 healthy overweight volunteer.</p>
                             </div>
                         </div>
@@ -320,7 +339,7 @@
             </script>
             <div class="container-fluid container-image-block">
                 <div class="row">
-                    <div class="col-lg-6" style="height:609px">
+                    <div class="col-lg-6 sec6-ht">
                         <div class="row">
                             <h1 class="text-medium">Natural product</h1>
                         </div>
@@ -333,7 +352,7 @@
                                         <a href="#" onclick="return false;"><i class="fa fa-tree"></i></a>
                                     </div>
                                     <h3>Non-animal product. Non-GMO.</h3>
-                                    <p>H<sub>2</sub>O Slim<sup>&reg;</sup> has been proven to be the most effective fat-trapper ingredient that has not been genetically modified nor comes from an animal.</p>
+                                    <p>H<sub>2</sub>OSlim<sup>&reg;</sup> has been proven to be the most effective fat-trapper ingredient that has not been genetically modified nor comes from an animal.</p>
                                 </div>
                             </div>
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
@@ -342,7 +361,7 @@
                                         <a href="#" onclick="return false;"><i class="fa fa-seedling"></i></a>
                                     </div>
                                     <h3>Vegan, Gluten-free, Sugar-free, Allergen-free.</h3>
-                                    <p>H<sub>2</sub>O Slim<sup>&reg;</sup> is suitable for a wide variety of diets and it is allergen-free. H<sub>2</sub>O Slim<sup>&reg;</sup> is suitable for vegans, celiac people, diabetic people and those with shellfish allergy.</p>
+                                    <p>H<sub>2</sub>OSlim<sup>&reg;</sup> is suitable for a wide variety of diets and it is allergen-free. H<sub>2</sub>OSlim<sup>&reg;</sup> is suitable for vegans, celiac disease sufferers, diabetics and those with shellfish allergies.</p>
                                 </div>
                             </div>
                             <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="400">
@@ -350,22 +369,21 @@
                                     <div class="icon">
                                         <a href="#" onclick="return false;"><i class="fa fa-user-md"></i></a>
                                     </div>
-                                    <h3>No side effects.</h3>
-                                    <p>As a natural ingredient, H<sub>2</sub>O Slim<sup>&reg;</sup> has a strong safety record with no known side effects neither interaction with any medicines reported so far. However, if you do have any existing health problems, we recommend that you consult with your doctor before you take H<sub>2</sub>O Slim<sup>&reg;</sup>.</p>
+                                    <h3>Lack of side effects.</h3>
+                                    <p>As a natural ingredient, H<sub>2</sub>OSlim<sup>&reg;</sup> has a strong safety record, with no known side effects nor negative interactions with other medicines reported so far. However, if you do have any existing health problems, we recommend that you consult your doctor before taking H<sub>2</sub>OSlim<sup>&reg;</sup>.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="sec6-graphic" class="col-lg-6" style="height:609px;background:black url({{ asset('images/image-box-3-1.jpg') }}) 50% 50% / cover no-repeat;">
+                    <div id="sec6-graphic" class="col-lg-6 sec6-ht" style="background:black url({{ asset('images/image-box-3-1.jpg') }}) 50% 50% / cover no-repeat;">
                     </div>
-
                 </div>
             </div>
         </section>
 
         <!-- FANCY BOXES -->
         <section id="section7" class="box-fancy section-fullwidth no-padding" style="background-image:url({{ asset('images/fbox-bkg.jpg') }});">
-            <h1 class="text-medium text-center" style="padding: 6vh 0 3vh">Quality & Traceability</h1>
+            <h1 class="text-medium text-center" style="padding: 6vh 0 3vh">From the soil to the consumer</h1>
             <div class="row fbox-line-row">
                 <div class="col-lg-3" style="padding-top:0!important;padding-bottom:0!important;">
                     <div class="fbox-line-hor"></div>
@@ -401,13 +419,13 @@
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
                     <h1 class="text-lg text-uppercase">03.</h1>
                     <h3>GMP PRODUCTION</h3>
-                    <span>H<sub>2</sub>O Slim<sup>&reg;</sup> is manufactured under the strictest quality controls within our GMP site, at Tradichem Industrial Services.
+                    <span>H<sub>2</sub>OSlim<sup>&reg;</sup> is manufactured under the strictest quality controls within our GMP site, at Tradichem Industrial Services.
                     </span>
                 </div>
                 <div class="col-lg-3 fbox-single" style="padding-top:0!important;">
                     <h1 class="text-lg text-uppercase">04.</h1>
                     <h3>NATURAL AND QUALITY INGREDIENT</h3>
-                    <span>H<sub>2</sub>O Slim<sup>&reg;</sup> is a result of science and nature come together to give the natural most powerful ingredient to weight loss without any side effect reported.
+                    <span>H<sub>2</sub>OSlim<sup>&reg;</sup> is a result of science and nature come together to give the natural most powerful ingredient to weight loss without any side effect reported.
                     </span>
                 </div>
             </div>
@@ -425,7 +443,7 @@
             </script>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 text-light" style="height: 720px">
+                    <div class="col-lg-6 sec8-ht text-light">
 
                         <h1 class="text-medium">Line Extension 2020</h1>
 
@@ -434,8 +452,8 @@
                                 <div class="icon">
                                     <a href="#" onclick="return false;"><i class="fa fa fa-prescription-bottle"></i></a>
                                 </div>
-                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Forte</h3>
-                                <p>Helps regulate accumulated fat. With satiating properties. Triple effect: The synergy between these two ingredientes makes H<sub>2</sub>O Slim<sup>&reg;</sup> Forte your best ally that will bring a whole new meaning to your diet.</p>
+                                <h3>H<sub>2</sub>OSlim Forte&trade;</h3>
+                                <p>Helps regulate accumulated fat. With satiating properties. Triple effect: The synergy between these two ingredientes makes H<sub>2</sub>OSlim<sup>&reg;</sup> Forte your best ally that will bring a whole new meaning to your diet.</p>
                             </div>
                         </div>
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="200">
@@ -443,7 +461,7 @@
                                 <div class="icon">
                                     <a href="#" onclick="return false;"><i class="fa fa-prescription-bottle"></i></a>
                                 </div>
-                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Carb</h3>
+                                <h3>H<sub>2</sub>OSlim Carb&trade;</h3>
                                 <p>Helps block the excess carbs ingested with meals. Designed to help maintain proper blood sugar and achieve an improvement in body composition. Powerful combination that decrease the absorption of both carbs and fats.</p>
                             </div>
                         </div>
@@ -452,7 +470,7 @@
                                 <div class="icon">
                                     <a href="#" onclick="return false;"><i class="fa fa fa-prescription-bottle"></i></a>
                                 </div>
-                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Digest</h3>
+                                <h3>H<sub>2</sub>OSlim Digest&trade;</h3>
                                 <p>Helps to support digestion and boost the immune system. Specific strain of Lactobacillus that enhances the effect of Agaricus
 Bisporus, improves digestion, reduce bloating and helps boosting the immune system.</p>
                             </div>
@@ -462,13 +480,13 @@ Bisporus, improves digestion, reduce bloating and helps boosting the immune syst
                                 <div class="icon">
                                     <a href="#" onclick="return false;"><i class="fa fa fa-prescription-bottle"></i></a>
                                 </div>
-                                <h3>H<sub>2</sub>O Slim<sup>&reg;</sup> Detox</h3>
+                                <h3>H<sub>2</sub>OSlim Detox&trade;</h3>
                                 <p>Outstanding natural-medicine diuretic that enhances detoxification. Combination of two powerful ingredients commonly used in traditional
 Chinese and Native American medicine that help detoxify the liver eliminating more toxins.</p>
                             </div>
                         </div>
                     </div>
-                    <div id="sec9-graphic" class="col-lg-6" style="height: 720px; background: #366393 url({{ asset('images/image-box-lineext.jpg') }}) 50% 50% / contain no-repeat;">
+                    <div id="sec9-graphic" class="col-lg-6 sec8-ht" style="background: #366393 url({{ asset('images/image-box-lineext.jpg') }}) 50% 50% / contain no-repeat;">
                     </div>
                 </div>
             </div>
@@ -484,9 +502,9 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
             </script>
             <div class="container-fluid">
                 <div class="row">
-                    <div id="sec8-graphic" class="col-lg-6" style="height:740px;background: black url({{ asset('images/image-box-4-1.jpg') }}) 50% 50% / cover no-repeat;">
+                    <div id="sec8-graphic" class="col-lg-6 sec9-ht" style="background: black url({{ asset('images/image-box-4-1.jpg') }}) 50% 50% / cover no-repeat;">
                     </div>
-                    <div class="col-lg-6 text-light" style="height:740px">
+                    <div class="col-lg-6 sec9-ht text-light">
 
                         <h1 class="text-medium">About Tradichem<sup>&reg;</sup></h1>
                         <p class="p-b-20" style="font-weight:bold"><a href="https://tradichem.es" target="_blank"><i class="fa fa-globe"></i>&nbsp;&nbsp; tradichem.es</a></p>
@@ -560,14 +578,14 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
                     <div class="row">
 
                         <div class="col-lg-3">
-                            <img src="{{ asset('images/logo-h2oslim.png') }}" alt="H2O Slim" style="width: 20vh; padding-bottom: 2vh">
+                            <img src="{{ asset('images/logo-h2oslim.png') }}" alt="H2OSlim" style="width: 20vh; padding-bottom: 2vh">
                             <p>A natural non-animal water soluble ingredient for calorie control.</p>
                             <div class="mb-4 social-icons social-icons-border social-icons-rounded social-icons-colored-hover">
                                 <ul>
                                     <li class="social-rss"><a href="https://tradichem.es/"><i class="fa fa-rss"></i></a></li>
                                     <li class="social-twitter"><a href="https://twitter.com/TRADICHEMSL"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="social-youtube"><a href="https://www.linkedin.com/company/tradichem/"><i class="fab fa-youtube"></i></a></li>
-                                    <li class="social-linkedin"><a href="https://www.youtube.com/channel/UCjlbxHxl2nEKz9i1YQWzdIA/videos"><i class="fab fa-linkedin"></i></a></li>
+                                    <li class="social-youtube"><a href="https://www.youtube.com/channel/UCjlbxHxl2nEKz9i1YQWzdIA/videos"><i class="fab fa-youtube"></i></a></li>
+                                    <li class="social-linkedin"><a href="https://www.linkedin.com/company/tradichem/"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -592,10 +610,10 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
                                     <li><i class="fa fa-home"></i> &nbsp;<a href="#slider"><span>HOME</span></a></li>
                                     <li><i class="fa fa-question"></i> &nbsp;<a href="#section2"><span>WHAT IS H2Oslim<sup>&reg;</sup>?</span></a></li>
                                     <li><i class="fa fa-cogs"></i> &nbsp;<a href="#section3"><span>HOW DOES H2Oslim<sup>&reg;</sup> WORK?</span></a></li>
-                                    <li><i class="fa fa-globe"></i> &nbsp;<a href="#section4"><span>H<sub>2</sub>O SLIM<sup>&reg;</sup> PARTNERS</span></a></li>
+                                    <li><i class="fa fa-globe"></i> &nbsp;<a href="#section4"><span>H<sub>2</sub>OSLIM<sup>&reg;</sup> PARTNERS</span></a></li>
                                     <li><i class="fa fa-chart-line"></i> &nbsp;<a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
                                     <li><i class="fa fa-leaf"></i> &nbsp;<a href="#section6"><span>NATURAL PRODUCT</span></a></li>
-                                    <li><i class="fa fa-award"></i> &nbsp;<a href="#section7"><span>QUALITY & TRACEABILITY</span></a></li>
+                                    <li><i class="fa fa-award"></i> &nbsp;<a href="#section7"><span>FROM THE SOIL TO THE CONSUMER</span></a></li>
                                     <li><i class="fa fa-prescription-bottle"></i> &nbsp;<a href="#section8"><span>LINE EXTENSION 2020</span></a></li>
                                     <li><i class="fa fa-info"></i> &nbsp;<a href="#section9"><span>ABOUT TRADICHEM</span></a></li>
                                     <li><i class="fa fa-film"></i> &nbsp;<a href="#section10"><span>VIDEO GALLERY</span></a></li>
@@ -660,7 +678,7 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
             data: {
                 labels: ['0', '200', '400', '600', '800'],
                 datasets: [{
-                        label: 'H₂O Slim',
+                        label: 'H₂OSlim',
                         backgroundColor: window.chartColors.blue,
                         borderColor: window.chartColors.blue,
                         data: [40, 40, 60, 80, 80],
@@ -724,12 +742,12 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
     <!-- amcharts component-->
     <script src="plugins/amcharts/core.js"></script>
     <script src="plugins/amcharts/maps.js"></script>
-    <script src="plugins/amcharts/geodata/worldHigh.js"></script>
+    <script src="plugins/amcharts/geodata/worldLow.js"></script>
     <script>
         // Create map instance
         var chart = am4core.create("mapdiv4", am4maps.MapChart);
         // Set map definition
-        chart.geodata = am4geodata_worldHigh;
+        chart.geodata = am4geodata_worldLow;
         // Set projection
         chart.projection = new am4maps.projections.Miller();
         // Disable wheel and drag
@@ -765,12 +783,17 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
                 };
         */
         var groupData = [{
-                "name": "Nutraceuticals Group (USA & México)",
+                "name": "Nutraceuticals Group (North America)",
                 "color": "#7DB378",
                 "data": [{
                     "title": "USA",
                     "id": "US",
                     "customData": "Nutraceuticals Group (USA)",
+                    "continent": "America"
+                }, {
+                    "title": "Canada",
+                    "id": "CA",
+                    "customData": "Nutraceuticals Group (Canada)",
                     "continent": "America"
                 }, {
                     "title": "Mexico",
@@ -1010,7 +1033,7 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
                 }]
             },
             {
-                "name": "Lithy (Asia)",
+                "name": "Lithy (China)",
                 "color": "#193387",
                 "data": [{
                     "title": "China",
@@ -1055,7 +1078,7 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
                         break;
 
                     case 'America':
-                        $('#map_desc_title').html("<a id='map_title_link' href='#' target='_blank'>Nutraceuticals Group</a> (USA & México)");
+                        $('#map_desc_title').html("<a id='map_title_link' href='#' target='_blank'>Nutraceuticals Group</a> (North America)");
                         $('#map_desc_text').text("Nutraceuticals International Group® is a global ingredient supplier with over 35 years of knowledge and experience in the natural products industry. Nutraceuticals International Group ® leads the industry by staying ahead of the trends. They continually add the newest, most exclusive ingredients to their product list and keep their customers one step ahead of the competition. They pride themselves on providing great customer service, technical support, and competitive pricing.");
                         $('#map_logo_link,#map_title_link').attr('href', 'https://nutraceuticalsgroup.com/us');
                         $('#map_logo_img').attr('src', "{{ asset('images/map-logo-nutraceuticals.png') }}");
