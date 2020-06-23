@@ -30,8 +30,8 @@
     <!-- Document title -->
     <title>H2OSlim by Tradichem</title>
     <!-- Stylesheets & Fonts -->
-    <link href="css/plugins.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/plugins.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <!-- LOAD JQUERY LIBRARY -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
     <!-- LOADING FONTS AND ICONS -->
@@ -80,7 +80,7 @@
                 <li><i class="fa fa-question"></i><a href="#section2"><span>WHAT IS H2Oslim<sup>&reg;</sup>?</span></a></li>
                 <li><i class="fa fa-cogs"></i><a href="#section3"><span>HOW DOES H2Oslim<sup>&reg;</sup> WORK?</span></a></li>
                 <li><i class="fa fa-globe"></i><a href="#section4"><span>H<sub>2</sub>OSLIM<sup>&reg;</sup> PARTNERS</span></a></li>
-                <li><i class="fa fa-chart-line"></i><a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
+                <li><i class="fa fa-chart-line"></i><a href="#section5"><span>BEST WEIGHT CONTROL INGREDIENT</span></a></li>
                 <li><i class="fa fa-leaf"></i><a href="#section6"><span>NATURAL PRODUCT</span></a></li>
                 <li><i class="fa fa-award"></i><a href="#section7"><span>FROM THE SOIL TO THE CONSUMER</span></a></li>
                 <li><i class="fa fa-prescription-bottle"></i><a href="#section8"><span>LINE EXTENSION 2020</span></a></li>
@@ -101,13 +101,9 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-3238" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="500" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="{{ asset('images/home-bkg-' . rand(1,3) . '.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                            <img src="{{ asset('images/home-bkg.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
-                            <!-- LOGO: H2OSLIM -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-3238-layer-4" data-x="['left','left','left','left']" data-hoffset="['-264','-264','-371','-416']" data-y="['top','top','top','top']" data-voffset="['-135','-135','-180','-203']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:left;rZ:-90deg;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;border-width:0px;"><img src="{{ asset('images/header_penpot.png') }}" alt="" data-ww="['650px','650px','650px','650px']" data-hh="['500px','500px','500px','500px']" width="650" height="500" data-no-retina> </div>
-                            <!-- LOGO: TRADICHEM -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3238-layer-7" data-x="['right','right','right','right']" data-hoffset="['-364','-364','-479','-553']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-155','-155','-180','-202']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"from":"x:right;rZ:-65deg;","speed":1500,"to":"o:1;","delay":700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;border-width:0px;"><img src="{{ asset('images/header_tablet.png') }}" alt="" data-ww="['730px','730px','730px','730px']" data-hh="['520px','520px','520px','520px']" width="730" height="520" data-no-retina> </div>
-                            <!-- TEXT: INNOVATION -->
+s                            <!-- TEXT: INNOVATION -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']" data-fontsize="['80','80','80','60']" data-lineheight="['80','80','80','60']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":510,"ease":"Power4.easeOut"},{"delay":640,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">Innovation</div>
                             <!-- TEXT: NATURE -->
                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-15" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']" data-fontsize="['80','80','80','60']" data-lineheight="['80','80','80','60']" data-width="['none','none','none','360']" data-height="none" data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:-50px;rX:-45deg;sX:2;sY:2;opacity:0;","speed":1500,"to":"o:1;","delay":2940,"ease":"Power4.easeOut"},{"delay":660,"speed":600,"to":"y:30px;rX:45deg;sX:0.8;sY:0.8;opacity:0;","ease":"Power2.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 700; color: rgba(0, 0, 0, 1.00);font-family:Roboto;border-width:0px;">Nature</div>
@@ -215,6 +211,10 @@
                             <i class="fa fa-play" style="margin: -1px 0 0 2px; color: #ffffff !important; text-shadow: 0 0 3px #333333;"></i>
                             <span style="margin-top: 2px; text-shadow: 0 0 3px #333333;">WATCH VIDEO</span>
                         </a>
+                        <div id="video_touch" style="cursor: default">
+                            <br><br><br><br><br><br>
+                            TOUCH PLAY!
+                        </div>
                         <div id="video_click" onclick="$('#watch_btn').trigger('mouseover')">
                             CLICK!
                         </div>
@@ -299,7 +299,7 @@
                     </div>
                     <div class="col-lg-6 text-light sec5-ht">
 
-                        <h1 class="text-medium">Best slimming product</h1>
+                        <h1 class="text-medium">Best weight control ingredient</h1>
                         <p class="p-b-20" style="font-weight:bold">Clinically proven.</p>
 
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
@@ -446,6 +446,8 @@
                     <div class="col-lg-6 sec8-ht text-light">
 
                         <h1 class="text-medium">Line Extension 2020</h1>
+
+                        <p class="p-b-20" style="font-weight:bold">Proprietary blends.</p>
 
                         <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
                             <div class="icon-box effect small" onmouseover="changePic('sec9-graphic', '6', '1')">
@@ -603,7 +605,7 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
                             </div>
                         </div>
 
-                        <div class="col-lg-3 m-t-30">
+                        <div class="col-lg-4 m-t-30">
                             <div class="widget clearfix widget-categories">
                                 <h4 class="widget-title">Page sections</h4>
                                 <ul id="footer-links" class="list list-arrow-icons">
@@ -611,7 +613,7 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
                                     <li><i class="fa fa-question"></i> &nbsp;<a href="#section2"><span>WHAT IS H2Oslim<sup>&reg;</sup>?</span></a></li>
                                     <li><i class="fa fa-cogs"></i> &nbsp;<a href="#section3"><span>HOW DOES H2Oslim<sup>&reg;</sup> WORK?</span></a></li>
                                     <li><i class="fa fa-globe"></i> &nbsp;<a href="#section4"><span>H<sub>2</sub>OSLIM<sup>&reg;</sup> PARTNERS</span></a></li>
-                                    <li><i class="fa fa-chart-line"></i> &nbsp;<a href="#section5"><span>BEST SLIMMING PRODUCT</span></a></li>
+                                    <li><i class="fa fa-chart-line"></i> &nbsp;<a href="#section5"><span>BEST WEIGHT CONTROL INGREDIENT</span></a></li>
                                     <li><i class="fa fa-leaf"></i> &nbsp;<a href="#section6"><span>NATURAL PRODUCT</span></a></li>
                                     <li><i class="fa fa-award"></i> &nbsp;<a href="#section7"><span>FROM THE SOIL TO THE CONSUMER</span></a></li>
                                     <li><i class="fa fa-prescription-bottle"></i> &nbsp;<a href="#section8"><span>LINE EXTENSION 2020</span></a></li>
@@ -673,68 +675,55 @@ Chinese and Native American medicine that help detoxify the liver eliminating mo
         var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
             'November', 'December'
         ];
-        var config = {
-            type: 'line',
-            data: {
-                labels: ['0', '200', '400', '600', '800'],
-                datasets: [{
-                        label: 'H₂OSlim',
-                        backgroundColor: window.chartColors.blue,
-                        borderColor: window.chartColors.blue,
-                        data: [40, 40, 60, 80, 80],
-                        fill: false,
-                    },
-                    {
-                        label: 'Chitosan',
-                        fill: false,
-                        backgroundColor: window.chartColors.red,
-                        borderColor: window.chartColors.red,
-                        data: [20, 20, 40, 60, 60],
-                    },
-                    {
-                        label: 'Chitosan + SA',
-                        fill: false,
-                        backgroundColor: '#eda257',
-                        borderColor: '#eda257',
-                        data: [10, 20, 30, 35, 40]
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                title: {
-                    display: true,
-                    text: 'Effectivity'
-                },
-                tooltips: {
-                    mode: 'index',
-                    intersect: false,
-                },
-                hover: {
-                    mode: 'nearest',
-                    intersect: true
-                },
-                scales: {
-                    xAxes: [{
-                        display: true,
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'Dose (mg.)'
-                        }
-                    }],
-                    yAxes: [{
-                        display: true,
-                        scaleLabel: {
-                            display: true,
-                            labelString: '% Fat trapped'
-                        }
-                    }]
-                }
-            }
+        var color = Chart.helpers.color;
+        var barChartData = {
+            labels: ['H₂OSlim®', 'Chitosan', 'Chitosan + SA ✱'],
+            datasets: [{
+                label: '400 mg.',
+                backgroundColor: '#98b9e1',
+                borderColor: '#4f8cca',
+                borderWidth: 2,
+                data: [60, 40, 30]
+            }, {
+                label: '800 mg',
+                backgroundColor: '#f3a78a',
+                borderColor: '#e56e2b',
+                borderWidth: 2,
+                data: [80, 60, 40]
+            }]
         };
-        window.onload = function() {
+        window.onload = function () {
             var ctx = document.getElementById('canvas').getContext('2d');
-            window.myLine = new Chart(ctx, config);
+            window.myBar = new Chart(ctx, {
+                type: 'bar',
+                data: barChartData,
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Effectivity'
+                    },
+                    scales: {
+                        yAxes: [{
+                            display: true,
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }],
+                        xAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: '(✱) Succinic acid',
+                                fontColor: '#666666',
+                                fontSize: 11
+                            }
+                        }]
+                    }
+                }
+            });
         };
     </script>
     <!-- end: charts.js component-->

@@ -56,19 +56,19 @@ sup {
     text-align: center;
     font-weight: bold;
 }
-@media all and (orientation:portrait)
+@media all and (orientation:portrait) and (max-width: 550px)
 {
     #sec5-portrait-msg {display: block !important;}
 }
 
-$sec2-ht: 610px;
-$sec3-ht: 610px;
+$sec2-ht: 620px;
+$sec3-ht: 620px;
 
-$sec5-ht: 560px;
-$sec6-ht: 610px;
+$sec5-ht: 590px;
+$sec6-ht: 620px;
 
-$sec8-ht: 720px;
-$sec9-ht: 740px;
+$sec8-ht: 780px;
+$sec9-ht: 750px;
 
 .sec2-ht {height: $sec2-ht;}
 .sec3-ht {height: $sec3-ht;}
@@ -80,67 +80,71 @@ $sec9-ht: 740px;
 .sec9-ht {height: $sec9-ht;}
 
 @media (max-width: 1590px) {
-    .sec6-ht {height: $sec6-ht + 50;}
+    .sec5-ht {height: $sec5-ht + 30 + 20;}
+    .sec6-ht {height: $sec6-ht + 50 + 20;}
 
-    .sec8-ht {height: $sec8-ht + 50;}
-    .sec9-ht {height: $sec9-ht + 50;}
+    .sec8-ht {height: $sec8-ht + 50 + 20 + 15;}
+    .sec9-ht {height: $sec9-ht + 50 + 20;}
 }
 
 @media (max-width: 1455px) {
-    .sec5-ht {height: $sec5-ht + 50;}
-    .sec6-ht {height: $sec6-ht + 75;}
+    .sec5-ht {height: $sec5-ht + 50 + 20;}
+    .sec6-ht {height: $sec6-ht + 75 + 20;}
 
-    .sec8-ht {height: $sec8-ht + 100;}
-    .sec9-ht {height: $sec9-ht + 100;}
+    .sec8-ht {height: $sec8-ht + 100 + 20 + 15;}
+    .sec9-ht {height: $sec9-ht + 100 + 20;}
 }
 
 @media (max-width: 1300px) {
-    .sec5-ht {height: $sec5-ht + 75;}
-    .sec6-ht {height: $sec6-ht + 100;}
+    .sec2-ht {height: $sec2-ht + 25 + 20;}
 
-    .sec8-ht {height: $sec8-ht + 175;}
-    .sec9-ht {height: $sec9-ht + 175;}
+    .sec5-ht {height: $sec5-ht + 75 + 20;}
+    .sec6-ht {height: $sec6-ht + 100 + 20;}
+
+    .sec8-ht {height: $sec8-ht + 175 + 20 + 15;}
+    .sec9-ht {height: $sec9-ht + 175 + 20;}
 }
 
 @media (max-width: 1205px) {
-    .sec2-ht {height: $sec2-ht + 25;}
+    .sec2-ht {height: $sec2-ht + 45 + 20;}
 
-    .sec5-ht {height: $sec5-ht + 100;}
-    .sec6-ht {height: $sec6-ht + 125;}
+    .sec5-ht {height: $sec5-ht + 100 + 20;}
+    .sec6-ht {height: $sec6-ht + 125 + 20;}
 
-    .sec8-ht {height: $sec8-ht + 200;}
-    .sec9-ht {height: $sec9-ht + 200;}
+    .sec8-ht {height: $sec8-ht + 200 + 20 + 15;}
+    .sec9-ht {height: $sec9-ht + 200 + 20;}
 }
 
 @media (max-width: 1150px) {
-    .sec2-ht {height: $sec2-ht + 50;}
+    .sec2-ht {height: $sec2-ht + 60 + 20;}
 
-    .sec5-ht {height: $sec5-ht + 150;}
-    .sec6-ht {height: $sec6-ht + 175;}
+    .sec5-ht {height: $sec5-ht + 150 + 20;}
+    .sec6-ht {height: $sec6-ht + 175 + 20;}
 
-    .sec8-ht {height: $sec8-ht + 250;}
-    .sec9-ht {height: $sec9-ht + 250;}
+    .sec8-ht {height: $sec8-ht + 250 + 20 + 15;}
+    .sec9-ht {height: $sec9-ht + 250 + 20;}
 }
 
 @media (max-width: 1100px) {
-    .sec2-ht {height: $sec2-ht + 75;}
+    .sec2-ht {height: $sec2-ht + 75 + 20;}
+    .sec3-ht {height: $sec3-ht + 5 + 20;}
 
-    .sec5-ht {height: $sec5-ht + 200;}
-    .sec6-ht {height: $sec6-ht + 225;}
+    .sec5-ht {height: $sec5-ht + 200 + 20;}
+    .sec6-ht {height: $sec6-ht + 225 + 20;}
 
-    .sec8-ht {height: $sec8-ht + 275;}
-    .sec9-ht {height: $sec9-ht + 275;}
+    .sec8-ht {height: $sec8-ht + 275 + 20 + 15;}
+    .sec9-ht {height: $sec9-ht + 275 + 20;}
 }
 
 @media (max-width: 1050px) {
-    .sec2-ht {height: $sec2-ht + 100;}
-    .sec3-ht {height: $sec3-ht + 25;}
+    .sec2-ht {height: $sec2-ht + 100 + 20;}
+    .sec3-ht {height: $sec3-ht + 25 + 20;}
 
-    .sec5-ht {height: $sec5-ht + 250;}
-    .sec6-ht {height: $sec6-ht + 275;}
+    .sec5-ht {height: $sec5-ht + 250 + 20;}
+    .sec6-ht {height: $sec6-ht + 275 + 20;}
 
-    .sec8-ht {height: $sec8-ht + 325;}
-    .sec9-ht {height: $sec9-ht + 325;}
+    .sec8-ht {height: $sec8-ht + 375 + 20 + 15;}
+    .sec9-ht {height: $sec9-ht + 325 + 20;}
 }
 
 @media (max-width: 991px) {
@@ -154,9 +158,14 @@ $sec9-ht: 740px;
     .sec9-ht {height: auto; min-height: 50vw;}
 
     #video_click {display: none;}
+    #watch_btn {position: absolute;}
 }
 
-#video_click {
+@media (min-width: 992px) {
+    #video_touch {display: none;}
+}
+
+#video_click, #video_touch {
     font-weight: bold;
     font-size: 1.5em;
     margin: -4px 0 0 10px;
@@ -173,3 +182,5 @@ $sec9-ht: 740px;
         text-shadow: none;
     }
 }
+
+.p-b-20 {font-size: 22px;}

@@ -12329,37 +12329,31 @@ a.btn:not([href]):not([tabindex]):not(.btn-creative):not(.btn-slide).btn-xs {
 }
 
 #logo-abs img {
-  width: 20vh;
-  margin: 3vw;
+  width: 250px;
+  margin: 25px;
 }
 
 #logo-bottom-abs {
-  bottom: 2vw;
-  right: 2vw;
+  bottom: 6px;
+  right: 10px;
 }
 
 #logo-bottom-abs img {
-  width: 15vh;
+  width: 160px;
+  height: 156px;
 }
 
+/*
 @media (max-width: 792px) {
-  #logo-abs {
-    display: none;
-  }
-
-  #logo-bottom-abs {
-    display: none;
-  }
-
-  #slide-3238-layer-13 {
-    display: none;
-  }
+    #logo-abs {display: none;}
+    #logo-bottom-abs {display: none;}
+    #slide-3238-layer-13 {display: none;}
 }
+
 @media (min-width: 793px) {
-  #slide-3238-layer-4, #slide-3238-layer-7 {
-    display: none;
-  }
+    #slide-3238-layer-4, #slide-3238-layer-7 {display: none;}
 }
+*/
 #slider {
   background-color: #E89E52;
 }
@@ -18612,106 +18606,93 @@ sup {
   font-weight: bold;
 }
 
-@media all and (orientation: portrait) {
+@media all and (orientation: portrait) and (max-width: 550px) {
   #sec5-portrait-msg {
     display: block !important;
   }
 }
 .sec2-ht {
-  height: 610px;
+  height: 620px;
 }
 
 .sec3-ht {
-  height: 610px;
+  height: 620px;
 }
 
 .sec5-ht {
-  height: 560px;
+  height: 590px;
 }
 
 .sec6-ht {
-  height: 610px;
+  height: 620px;
 }
 
 .sec8-ht {
-  height: 720px;
+  height: 780px;
 }
 
 .sec9-ht {
-  height: 740px;
+  height: 750px;
 }
 
 @media (max-width: 1590px) {
+  .sec5-ht {
+    height: 640px;
+  }
+
   .sec6-ht {
-    height: 660px;
+    height: 690px;
   }
 
   .sec8-ht {
-    height: 770px;
+    height: 865px;
   }
 
   .sec9-ht {
-    height: 790px;
+    height: 820px;
   }
 }
 @media (max-width: 1455px) {
   .sec5-ht {
-    height: 610px;
+    height: 660px;
   }
 
   .sec6-ht {
-    height: 685px;
+    height: 715px;
   }
 
   .sec8-ht {
-    height: 820px;
+    height: 915px;
   }
 
   .sec9-ht {
-    height: 840px;
+    height: 870px;
   }
 }
 @media (max-width: 1300px) {
+  .sec2-ht {
+    height: 665px;
+  }
+
   .sec5-ht {
-    height: 635px;
+    height: 685px;
   }
 
   .sec6-ht {
-    height: 710px;
+    height: 740px;
   }
 
   .sec8-ht {
-    height: 895px;
+    height: 990px;
   }
 
   .sec9-ht {
-    height: 915px;
+    height: 945px;
   }
 }
 @media (max-width: 1205px) {
   .sec2-ht {
-    height: 635px;
-  }
-
-  .sec5-ht {
-    height: 660px;
-  }
-
-  .sec6-ht {
-    height: 735px;
-  }
-
-  .sec8-ht {
-    height: 920px;
-  }
-
-  .sec9-ht {
-    height: 940px;
-  }
-}
-@media (max-width: 1150px) {
-  .sec2-ht {
-    height: 660px;
+    height: 685px;
   }
 
   .sec5-ht {
@@ -18719,20 +18700,20 @@ sup {
   }
 
   .sec6-ht {
-    height: 785px;
+    height: 765px;
   }
 
   .sec8-ht {
-    height: 970px;
+    height: 1015px;
   }
 
   .sec9-ht {
-    height: 990px;
+    height: 970px;
   }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .sec2-ht {
-    height: 685px;
+    height: 700px;
   }
 
   .sec5-ht {
@@ -18740,24 +18721,24 @@ sup {
   }
 
   .sec6-ht {
-    height: 835px;
+    height: 815px;
   }
 
   .sec8-ht {
-    height: 995px;
+    height: 1065px;
   }
 
   .sec9-ht {
-    height: 1015px;
+    height: 1020px;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1100px) {
   .sec2-ht {
-    height: 710px;
+    height: 715px;
   }
 
   .sec3-ht {
-    height: 635px;
+    height: 645px;
   }
 
   .sec5-ht {
@@ -18765,15 +18746,40 @@ sup {
   }
 
   .sec6-ht {
-    height: 885px;
+    height: 865px;
   }
 
   .sec8-ht {
-    height: 1045px;
+    height: 1090px;
   }
 
   .sec9-ht {
-    height: 1065px;
+    height: 1045px;
+  }
+}
+@media (max-width: 1050px) {
+  .sec2-ht {
+    height: 740px;
+  }
+
+  .sec3-ht {
+    height: 665px;
+  }
+
+  .sec5-ht {
+    height: 860px;
+  }
+
+  .sec6-ht {
+    height: 915px;
+  }
+
+  .sec8-ht {
+    height: 1190px;
+  }
+
+  .sec9-ht {
+    height: 1095px;
   }
 }
 @media (max-width: 991px) {
@@ -18814,8 +18820,17 @@ sup {
   #video_click {
     display: none;
   }
+
+  #watch_btn {
+    position: absolute;
+  }
 }
-#video_click {
+@media (min-width: 992px) {
+  #video_touch {
+    display: none;
+  }
+}
+#video_click, #video_touch {
   font-weight: bold;
   font-size: 1.5em;
   margin: -4px 0 0 10px;
@@ -18830,6 +18845,9 @@ sup {
   to {
     text-shadow: none;
   }
+}
+.p-b-20 {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */

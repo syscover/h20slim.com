@@ -334,16 +334,16 @@
 }
 #logo-abs img
 {
-    width: 20vh;
-    margin: 3vw;
+    width: 250px;
+    margin: 25px;
 }
 #logo-bottom-abs
 {
-    bottom: 2vw;
-    right: 2vw;
+    bottom: 6px;
+    right: 10px;
 }
-#logo-bottom-abs img {width: 15vh;}
-
+#logo-bottom-abs img {width: 160px; height: 156px;}
+/*
 @media (max-width: 792px) {
     #logo-abs {display: none;}
     #logo-bottom-abs {display: none;}
@@ -353,5 +353,5 @@
 @media (min-width: 793px) {
     #slide-3238-layer-4, #slide-3238-layer-7 {display: none;}
 }
-
+*/
 #slider {background-color: #E89E52;}
