@@ -60,6 +60,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
     <title>H2OSlim - Ingredient for fat absorption and removal - By Tradichem</title>
+    <!-- Preloader -->
+    <link href="{{ asset('css/preloader.css') }}" rel="stylesheet">
     <!-- Stylesheets & Fonts -->
     <link href="{{ asset('css/plugins.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -154,6 +156,7 @@
 </head>
 
 <body>
+<div style='z-index:100000' id='owlreporter-preloader'><div id='loader'></div><div class='loader-section section-left'></div><div class='loader-section section-right'></div></div>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>
@@ -171,6 +174,9 @@
     <a href="https://tradichem.es/">
         <img src="{{ asset('images/logo-tradichem-home.png') }}">
     </a>
+</div>
+<div id="language-toplink">
+    <h3 class="p-b-20" style="font-weight:bold"><a href="https://h2oslim.es/"><i class="fa fa-globe"></i>&nbsp; Es<span id="language-long">pañol</span></a></h3>
 </div>
 
 <!-- Body Inner -->
@@ -216,7 +222,7 @@
                              data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
                              data-no-retina>
                         <!-- LAYERS -->
-                        s                            <!-- TEXT: INNOVATION -->
+                        <!-- TEXT: INNOVATION -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-2" id="slide-3238-layer-1"
                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                              data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-70','-90']"
@@ -371,11 +377,11 @@
                     <p>Nature provides all the resources for sustaining a healthy life and mushrooms are one of the
                         species living in the soil that have been used down the ages due to their amazing health
                         properties.</p>
-                    <p>At its <b>GMP</b> facilities, <b>Tradichem S.L.</b> has studied thoroughly the remarkable
+                    <p>At its <strong>GMP</strong> facilities, <strong>Tradichem S.L.</strong> has studied thoroughly the remarkable
                         properties of Agaricus Bisporus. Our research revealed that certain compounds in this species
                         may have an effect on lipids, potentially linked to the mushroom's content in a type of soluble
                         polysaccharide. These have a tendency to capture the fat present in food and may, as a
-                        result, <b>reduce fat absorption and facilitate its elimination</b>. This represents a
+                        result, <strong>reduce fat absorption and facilitate its elimination</strong>. This represents a
                         significant aid to those who wish to achieve effective, long-lasting weight loss.</p>
                 </div>
             </div>
@@ -398,7 +404,7 @@
                         body, capable of trapping ingested fat through physical and electrostatic forces.
                     </p>
                     <p>
-                        In fact, this cationic polymer <b>traps</b> an astonishing <b>80% of daily fat intake</b>. Fat
+                        In fact, this cationic polymer <strong>traps</strong> an astonishing <strong>80% of daily fat intake</strong>. Fat
                         is safely eliminated, without being absorbed by our bodies.
                     </p>
                 </div>
@@ -411,8 +417,7 @@
                            style="margin: -1px 0 0 2px; color: #ffffff !important; text-shadow: 0 0 3px #333333;"></i>
                         <span style="margin-top: 2px; text-shadow: 0 0 3px #333333;">WATCH VIDEO</span>
                     </a>
-                    <div id="video_touch" style="cursor: default">
-                        <br><br><br><br><br><br>
+                    <div id="video_touch" style="cursor: default"><br><br><br><br><br><br>
                         TOUCH PLAY!
                     </div>
                     <div id="video_click" onclick="$('#watch_btn').trigger('mouseover')">
@@ -501,7 +506,7 @@
                     <div>
                         <ul style="list-style:none">
                             <li><i class="fa fa-check"></i> &nbsp;"A solely 400 mg dosage is capable of reducing weight
-                                loss and waist circumference, with a deeper impact on the waist circumference"
+                                loss and waist circumference, with a deeper impact on the latter"
                             </li>
                         </ul>
                     </div>
@@ -526,7 +531,7 @@
                             <div class="icon">
                                 <a href="#" onclick="return false;"><i class="fa fa-microscope"></i></a>
                             </div>
-                            <h3>400mg of H<sub>2</sub>OSlim<sup>&reg;</sup> eliminates more fat than 800mg of Chitosan
+                            <h3>400mg of H<sub>2</sub>OSlim<sup>&reg;</sup> eliminates more fat than 800mg of chitosan
                             </h3>
                             <ul style="margin-left: 84px; font-size: 1.2em;">
                                 <li>H<sub>2</sub>OSlim<sup>&reg;</sup> has shown amazing results in recent clinical
@@ -544,7 +549,7 @@
                             <div class="icon">
                                 <a href="#" onclick="return false;"><i class="fa fa-clipboard-check"></i></a>
                             </div>
-                            <h3>Clinically Proven Weight Loss</h3>
+                            <h3>Clinically proven weight loss</h3>
                             <p>Randomized double-blind vs placebo-controlled design 12 weeks 100 healthy overweight
                                 volunteer.</p>
                         </div>
@@ -587,7 +592,7 @@
                                 <div class="icon">
                                     <a href="#" onclick="return false;"><i class="fa fa-seedling"></i></a>
                                 </div>
-                                <h3>Vegan, Gluten-free, Sugar-free, Allergen-free.</h3>
+                                <h3>Vegan, gluten-free, sugar-free, allergen-free.</h3>
                                 <p>H<sub>2</sub>OSlim<sup>&reg;</sup> is suitable for a wide variety of diets and it is
                                     allergen-free. H<sub>2</sub>OSlim<sup>&reg;</sup> is suitable for vegans, celiac
                                     disease sufferers, diabetics and those with shellfish allergies.</p>
@@ -752,7 +757,7 @@
                 <div class="col-lg-6 sec9-ht text-light">
 
                     <h2 class="text-medium">About Tradichem<sup>&reg;</sup></h2>
-                    <h3 class="p-b-20" style="font-weight:bold"><a href="https://tradichem.es" target="_blank"><i
+                    <h3 class="p-b-20" style="font-weight:bold"><a href="https://tradichem.es/" target="_blank"><i
                                 class="fa fa-globe"></i>&nbsp;&nbsp; tradichem.es</a></h3>
 
                     <div class="col-lg-12 animated flipInY visible" data-animate="flipInY" data-animate-delay="0">
@@ -908,7 +913,7 @@
             <div class="container">
                 <div class="row">
                     <div class="copyright-text text-center"> &copy; 2020 <a target="_blank" href="//www.tradichem.com">Tradichem</a>.
-                        All Rights Reserved. Website created by <a target="_blank"
+                        All rights reserved. Website created by <a target="_blank"
                                                                    href="//www.digitalh2.com">DigitalH<sub>2</sub></a>
                     </div>
                 </div>
@@ -1152,11 +1157,6 @@
                 "title": "Estonia",
                 "id": "EE",
                 "customData": "Tradichem S.L. (Estonia)",
-                "continent": "Europe"
-            }, {
-                "title": "Spain",
-                "id": "ES",
-                "customData": "Tradichem S.L. (Spain)",
                 "continent": "Europe"
             }, {
                 "title": "Faeroe Islands",
@@ -1439,6 +1439,7 @@
     });
     sr.reveal('#quality-steps div');
 </script>
+<script src="{{ asset('js/preloader.js') }}"></script>
 </body>
 
 </html>

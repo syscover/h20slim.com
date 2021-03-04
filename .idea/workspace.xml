@@ -3,23 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="03d61ab5-e5d9-4319-a6c9-bd393a405e41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fbox-bkg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/fbox-bkg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/home-bkg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/home-bkg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-3-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-3-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-3-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-3-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-3-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-3-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-4-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-4-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-4-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-4-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-4-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-4-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-4-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-4-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-6-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-6-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-6-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-6-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-6-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-6-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image-box-6-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-box-6-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo-h2oslim-home.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo-h2oslim-home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/elements/_headings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/elements/_headings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +143,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -197,7 +183,8 @@
       <workItem from="1592672797883" duration="595000" />
       <workItem from="1592852888519" duration="4675000" />
       <workItem from="1593625870882" duration="500000" />
-      <workItem from="1614867251723" duration="2991000" />
+      <workItem from="1614867251723" duration="3777000" />
+      <workItem from="1614887246506" duration="3151000" />
     </task>
     <servers />
   </component>
@@ -205,22 +192,34 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1614888052922">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614888052922" />
+    <state x="511" y="226" width="897" height="665" key="EditFileWatcherDialog" timestamp="1614894821621">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="511" y="226" width="897" height="665" key="EditFileWatcherDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1614894821621" />
+    <state x="461" y="179" key="SettingsEditor" timestamp="1614894822312">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1614894822312" />
     <state x="749" y="215" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614870059076">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="749" y="215" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1614870059076" />
-    <state x="652" y="295" width="615" height="490" key="find.popup" timestamp="1614868847341">
+    <state x="652" y="295" width="615" height="490" key="find.popup" timestamp="1614889447590">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="652" y="295" width="615" height="490" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614868847341" />
+    <state x="652" y="295" width="615" height="490" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614889447590" />
     <state x="625" y="255" key="run.anything.popup" timestamp="1614869033135">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="625" y="255" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614869033135" />
-    <state x="637" y="241" width="683" height="676" key="search.everywhere.popup" timestamp="1614869035120">
+    <state x="637" y="241" width="683" height="676" key="search.everywhere.popup" timestamp="1614895521317">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1884.1080@0.0.1884.1080" timestamp="1614868853426" />
-    <state x="637" y="241" width="683" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614869035120" />
+    <state x="637" y="241" width="683" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1614895521317" />
   </component>
 </project>
