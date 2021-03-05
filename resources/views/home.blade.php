@@ -62,6 +62,12 @@
     <title>H2OSlim - Ingredient for fat absorption and removal - By Tradichem</title>
     <!-- Preloader -->
     <link href="{{ asset('css/preloader.css') }}" rel="stylesheet">
+    <noscript>
+        <style type="text/css">
+            #owlreporter-preloader {display: none}
+            #rev_slider_1174_1_wrapper {height: 101vh !important;}
+        </style>
+    </noscript>
     <!-- Stylesheets & Fonts -->
     <link href="{{ asset('css/plugins.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">

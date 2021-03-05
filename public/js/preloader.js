@@ -1,19 +1,48 @@
-function pageload()
+
+// Preloader - OMA (Mar 2021)
+
+function finishedLoading()
 {
-    var e = (new Date).getTime(), t = (e - before) / 1e3, n = document.getElementById("loadingtime");
-    n.innerHTML = "Page load: " + t + " seconds."
+    setTimeout(
+        function ()
+        {
+            document.body.className += " loaded"
+        },
+        250
+    );
 }
 
-window.onload = function ()
+if (document.addEventListener)
 {
-    pageload()
-}, setTimeout(function ()
+    document.addEventListener("DOMContentLoaded",
+        function ()
+        {
+            document.removeEventListener("DOMContentLoaded", arguments.callee);
+            finishedLoading();
+        }
+    );
+}
+else if (document.attachEvent) // IE8
 {
-    document.body.className += " loaded"
-}, 1500), document.addEventListener ? document.addEventListener("DOMContentLoaded", function ()
+    document.attachEvent("onreadystatechange",
+        function ()
+        {
+            if (document.readyState === "complete")
+            {
+                document.detachEvent("onreadystatechange", arguments.callee);
+                finishedLoading();
+            }
+        }
+    );
+}
+else
 {
-    document.removeEventListener("DOMContentLoaded", arguments.callee, !1), domReady()
-}, !1) : document.attachEvent && document.attachEvent("onreadystatechange", function ()
-{
-    "complete" === document.readyState && (document.detachEvent("onreadystatechange", arguments.callee), domReady())
-});
+    setTimeout(
+        function ()
+        {
+            finishedLoading();
+        },
+        2750
+    );
+
+}
